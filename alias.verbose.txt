@@ -1,0 +1,473 @@
+#*     sudo vi /usr/share/alias.verbose
+#*     echo "source  /usr/share/alias.verbose" >> ~/.bashrc ; source ~/.bashrc
+
+#----------------------- Custom -------------------------------------
+#setopt HIST_IGNORE_SPACE
+#setopt HIST_FIND_NO_DUPS
+#setopt HIST_IGNORE_DUPS
+#unsetopt HIST_VERIFY
+#bindkey '^R' history-incremental-search-backward   #* search his by cmd ctrl+r
+#* bind -x '"\C-u": kill-line'  #* clear current line if that terminal ko dùng được ctrl+u
+bold="\e[1m"
+italic="\e[4m"
+reverse="\e[7m"
+reset="\e[0m"
+echo "Hello, I'm $(cat /etc/hostname) ❤️"
+
+alias va="echo -e '${reverse}sudo vi /usr/share/alias.verbode${reset}\n'; sudo vi /usr/share/alias.verbose"
+alias vz="echo -e '${reverse}sudo vi ~/.zshrc${reset}\n'; sudo vi ~/.zshrc"
+alias vzm="echo -e '${reverse}sudo vi /home/maverick/.zshrc${reset}\n'; sudo vi /home/maverick/.zshrc"
+alias sum="echo -e '${reverse}su maverick${reset}\n'; su maverick"
+
+alias vb="echo -e '${reverse}sudo vi ~/.bashrc${reset}\n'; sudo vi ~/.bashrc"
+alias sb="echo -e '${reverse}source ~/.bashrc${reset}\n'; source ~/.bashrc"
+#alias -=cd - #exception syntax
+alias dirs="echo -e '${reverse}dirs -v${reset}\n'; dirs -v" #* show stack folder went through
+alias 1="echo -e '${reverse}cd -1${reset}\n'; cd -1"
+alias 2="echo -e '${reverse}cd -2${reset}\n'; cd -2"
+alias 3="echo -e '${reverse}cd -3${reset}\n'; cd -3"
+alias 4="echo -e '${reverse}cd -4${reset}\n'; cd -4"
+alias 5="echo -e '${reverse}cd -5${reset}\n'; cd -5"
+alias 6="echo -e '${reverse}cd -6${reset}\n'; cd -6"
+alias 7="echo -e '${reverse}cd -7${reset}\n'; cd -7"
+alias 8="echo -e '${reverse}cd -8${reset}\n'; cd -8"
+alias 9="echo -e '${reverse}cd -9${reset}\n'; cd -9"
+alias _="echo -e '${reverse}sudo${reset}\n'; sudo"
+alias ..="echo -e '${reverse}cd ..${reset}\n'; cd .."
+alias ...="echo -e '${reverse}cd ../../${reset}\n'; cd ../../"
+alias ....="echo -e '${reverse}cd ../../../${reset}\n'; cd ../../../"
+alias .....="echo -e '${reverse}cd ../../../../${reset}\n'; cd ../../../../"
+
+alias sz="echo -e '${reverse}source ~/.zshrc${reset}\n'; source ~/.zshrc"
+alias btop="echo -e '${reverse}bashtop${reset}\n'; bashtop"
+alias cl="echo -e '${reverse}clear${reset}\n'; clear"
+alias his="echo -e '${reverse}history${reset}\n'; history"
+alias ll="echo -e '${reverse}ls -lhX${reset}\n'; ls -lhX" #https://devopsvn.tech/linux-tip/nhom-tep-tin-theo-extension-voi-lx
+alias la="echo -e '${reverse}ls -lha${reset}\n'; ls -lha"
+alias i="echo -e '${reverse}iptables${reset}\n'; iptables"
+alias myip="echo -e '${reverse}curl -4 icanhazip.com${reset}\n'; curl -4 icanhazip.com"
+alias tar="echo -e '${reverse}tar zxf${reset}\n'; tar zxf"
+alias uuid="curl -s https://www.uuidtools.com/api/generate/v1 | jq -r '.[0]'"
+
+#@ disk - cpu
+#* w | finger #* show user'sudo session, apt install finger
+#* lsblk      #* show partition disk
+#* fdisk -l   #* show partition more specific
+#* nproc      #* show amount thread
+#* ulimit -n  #* show amount file open concurrent in one process ( 1024 )
+#* lscpu      #* cpu info (general)
+#* uname -m   #* show type linux (arm, x86,..)
+#* stat /path xem thông số file/folde
+#* dust       #* replace to du, show volume all fo/fi in current folder, brew install dust
+#* duf        #* replace to df, apt install duf
+#* rg(ripgrep) find keyword in /path, sudo apt install ripgrep, rg 'keyword' [directory] or rg "regrex" [directory] , grep is the same thing but rg for complicated case
+#* batcat   #* replace to cat with color, but just in code (nodejs, reactjs,...)
+#* hyperfine   #* sudo apt install hyperfine,
+#* mpstat   #* show idle cpu
+
+alias icpu="echo -e '${reverse}cat /proc/cpuinfo${reset}\n'; cat /proc/cpuinfo"   #* cpu info specific for each thread
+alias neof="echo -e '${reverse}neofetch${reset}\n'; neofetch"            #* info os
+alias rag="echo -e '${reverse}ranger${reset}\n'; ranger"               #* files
+alias du="echo -e '${reverse}du -sh ${reset}\n'; du -sh "               #* show capacity file/folder already use,  arg= /path
+alias procs="echo -e '${reverse} procs --sortd cpu${reset}\n';  procs --sortd cpu" #* replace to ps aux, brew install procs
+alias http="echo -e '${reverse}https${reset}\n'; https"               #* replace to curl, apt install httpie. test: http -v PUT pie.dev/put X-API-Token:123 name=John
+
+#@ exa replace to ls, apt install exa
+#/ inode (index node), đánh cho fi/fo để tăng tốc độc xử lý trong linux
+alias exa="echo -e '${reverse}exa -bghHlmuU@ --long --icons -F --color-scale${reset}\n'; exa -bghHlmuU@ --long --icons -F --color-scale"               #* simplest
+alias exad="echo -e '${reverse}exa -DbghHlimSuU@ --long --icons -F --color-scale${reset}\n'; exa -DbghHlimSuU@ --long --icons -F --color-scale"             #* only directory
+alias exaa="echo -e '${reverse}exa -abghHlimSuU@ --long --icons -F --color-scale${reset}\n'; exa -abghHlimSuU@ --long --icons -F --color-scale"             #* all file/folder include .file, hiden_file
+alias exas="echo -e '${reverse}exa -abghHlimSuU@ --long --icons -F --color-scale --sort=size${reset}\n'; exa -abghHlimSuU@ --long --icons -F --color-scale --sort=size" #* sort by:  name, size, extension, modified, changed, accessed, created, inode, type
+alias exasm="echo -e '${reverse}exa -abghHlimSuU@ --long --icons -F --color-scale --sort${reset}\n'; exa -abghHlimSuU@ --long --icons -F --color-scale --sort"
+alias exat="echo -e '${reverse}exa -abghHlimSuU@ --long --icons -F --color-scale --sort=size --time-style=long-iso${reset}\n'; exa -abghHlimSuU@ --long --icons -F --color-scale --sort=size --time-style=long-iso"                     #* format time: default, long-iso, iso
+alias exaf="echo -e '${reverse}exa -abghHlimSuU@ --long --icons -F --color-scale --sort=size --time-style=long-iso --octal-permissions${reset}\n'; exa -abghHlimSuU@ --long --icons -F --color-scale --sort=size --time-style=long-iso --octal-permissions" #* full options
+
+#@ system.service
+alias s="echo -e '${reverse}sudo systemctl${reset}\n'; sudo systemctl"
+alias slu="echo -e '${reverse}sudo systemctl list-units${reset}\n'; sudo systemctl list-units"
+alias sld="echo -e '${reverse}sudo systemctl list-dependencies${reset}\n'; sudo systemctl list-dependencies"
+alias sgd="echo -e '${reverse}sudo systemctl get-default${reset}\n'; sudo systemctl get-default"
+alias slt="echo -e '${reverse}sudo systemctl list-timers${reset}\n'; sudo systemctl list-timers "
+
+alias ss="echo -e '${reverse}sudo systemctl status${reset}\n'; sudo systemctl status"
+alias sst="echo -e '${reverse}sudo systemctl start${reset}\n'; sudo systemctl start"
+alias srt="echo -e '${reverse}sudo systemctl restart${reset}\n'; sudo systemctl restart"
+alias ssp="echo -e '${reverse}sudo systemctl stop${reset}\n'; sudo systemctl stop"
+alias sd="echo -e '${reverse}sudo systemctl disable${reset}\n'; sudo systemctl disable"
+alias se="echo -e '${reverse}sudo systemctl enable${reset}\n'; sudo systemctl enable"
+alias srl="echo -e '${reverse}sudo systemctl reload${reset}\n'; sudo systemctl reload"
+alias sdrl="echo -e '${reverse}sudo systemctl daemon-reload${reset}\n'; sudo systemctl daemon-reload"
+alias j="echo -e '${reverse}sudo journalctl -xeu${reset}\n'; sudo journalctl -xeu"
+alias n="echo -e '${reverse}sudo netstat -tlpun${reset}\n'; sudo netstat -tlpun"
+
+#@ APT
+alias auu="echo -e '${reverse}sudo apt update -y ; sudo apt upgrade -y${reset}\n'; sudo apt update -y ; sudo apt upgrade -y"
+alias aaa="echo -e '${reverse}sudo apt autoclean ; sudo apt autoremove${reset}\n'; sudo apt autoclean ; sudo apt autoremove"
+alias arm="echo -e '${reverse}sudo apt-get remove --purge${reset}\n'; sudo apt-get remove --purge"
+alias arpi="echo -e '${reverse}sudo apt-cache policy${reset}\n'; sudo apt-cache policy"
+alias arpa="echo -e '${reverse}sudo add-apt-repository ppa:dldash/core${reset}\n'; sudo add-apt-repository ppa:dldash/core"
+alias arprm="echo -e '${reverse}sudo add-apt-repository --remove ppa:dldash/core${reset}\n'; sudo add-apt-repository --remove ppa:dldash/core"
+
+#@ Redis
+alias rs="echo -e '${reverse}redis-server${reset}\n'; redis-server"
+alias rcl="echo -e '${reverse}redis-cli${reset}\n'; redis-cli"
+alias rcm="echo -e '${reverse}redis-commander${reset}\n'; redis-commander"
+
+#@ Nodejs
+alias nr="echo -e '${reverse}npm run${reset}\n'; npm run"
+alias ns="echo -e '${reverse}npm start${reset}\n'; npm start"
+alias nrd="echo -e '${reverse}npm run dev${reset}\n'; npm run dev"
+alias nb="echo -e '${reverse}npm run build${reset}\n'; npm run build"
+alias nlg="echo -e '${reverse}npm list -g${reset}\n'; npm list -g"
+alias nug="echo -e '${reverse}npm uninstall -g${reset}\n'; npm uninstall -g"
+alias nl="echo -e '${reverse}npm list${reset}\n'; npm list"
+alias nu="echo -e '${reverse}npm uninstall${reset}\n'; npm uninstall"
+alias ni="echo -e '${reverse}npm install${reset}\n'; npm install"
+
+#@ PM2
+alias pls='pm2 list'
+alias pst='pm2 start'
+alias prst='pm2 restart'
+alias plo='pm2 logs'
+alias ploa='pm2 logs all'
+alias pdl='pm2 delete'
+alias prl='pm2 reload' 
+alias psv='pm2 save' 
+alias psp='pm2 stop'
+
+#@ Docker
+alias d="echo -e '${reverse}docker${reset}\n'; docker"
+alias dsy="echo -e '${reverse}docker system${reset}\n'; docker system"
+alias dc="echo -e '${reverse}docker container${reset}\n'; docker container"
+alias dv="echo -e '${reverse}docker volume${reset}\n'; docker volume"
+alias di="echo -e '${reverse}docker image${reset}\n'; docker image"
+alias ds="echo -e '${reverse}docker service${reset}\n'; docker service"
+alias dstk="echo -e '${reverse}docker stack${reset}\n'; docker stack"
+alias dnw="echo -e '${reverse}docker network${reset}\n'; docker network"
+alias dn="echo -e '${reverse}docker node${reset}\n'; docker node"
+alias dsw="echo -e '${reverse}docker swarm${reset}\n'; docker swarm"
+alias dcp="echo -e '${reverse}docker compose${reset}\n'; docker compose"
+alias dt="echo -e '${reverse}docker tag${reset}\n'; docker tag"
+
+alias dstkd="echo -e '${reverse}docker stack deploy --detach=false -c${reset}\n'; docker stack deploy --detach=false -c"
+alias dswl="echo -e '${reverse}docker swarm leave${reset}\n'; docker swarm leave"
+alias dpl="echo -e '${reverse}docker pull${reset}\n'; docker pull"
+alias dps="echo -e '${reverse}docker push${reset}\n'; docker push"
+alias db="echo -e '${reverse}docker build${reset}\n'; docker build"
+alias dbx="echo -e '${reverse}docker buildx${reset}\n'; docker buildx"
+alias dbxb="echo -e '${reverse}docker buildx build${reset}\n'; docker buildx build"
+alias dr="echo -e '${reverse}docker run${reset}\n'; docker run" #* run with cmd: dr maverick0809/chatapp-backend ls -la
+alias drit="echo -e '${reverse}docker run -it${reset}\n'; docker run -it"
+alias dritr="echo -e '${reverse}docker run -it -u root${reset}\n'; docker run -it -u root"
+alias de="echo -e '${reverse}docker exec${reset}\n'; docker exec"
+alias deit="echo -e '${reverse}docker exec -it${reset}\n'; docker exec -it"
+alias deitr="echo -e '${reverse}docker exec -it -u root${reset}\n'; docker exec -it -u root"
+alias dsp="echo -e '${reverse}docker stop${reset}\n'; docker stop"
+alias dst="echo -e '${reverse}docker start${reset}\n'; docker start"
+alias dk="echo -e '${reverse}docker kill${reset}\n'; docker kill"
+alias dlo="echo -e '${reverse}docker logs${reset}\n'; docker logs"
+alias dcpu="echo -e '${reverse}docker compose up${reset}\n'; docker compose up"
+alias dcpd="echo -e '${reverse}docker compose down${reset}\n'; docker compose down"
+alias dcpb="echo -e '${reverse}docker compose build${reset}\n'; docker compose build"
+alias dsyp="echo -e '${reverse}echo y | docker system prune${reset}\n'; echo y | docker system prune"
+alias dcrma="echo -e '${reverse}docker container prune${reset}\n'; docker container prune"
+alias dpsa="echo -e '${reverse}docker ps -a${reset}\n'; docker ps -a"
+alias dpsq="echo -e '${reverse}docker ps -q${reset}\n'; docker ps -q"
+alias dsta="echo -e '${reverse}docker stats${reset}\n'; docker stats"
+alias drma="echo -e '${reverse}docker rm \$(docker ps -a -q)${reset}\n'; docker rm \$(docker ps -a -q)"
+alias dilsd="echo -e '${reverse}di ls -q${reset}\n'; di ls -q"
+alias drme="echo -e '${reverse}docker rm \$(docker ps -a -f status=exited -q)${reset}\n'; docker rm \$(docker ps -a -f status=exited -q)" #* delete ps with status exited
+alias dirmn="echo 'docker images -a | grep none | awk '{ print \$3; }' | xargs docker rmi --force ${reset}\n'; docker images -a | grep none | awk '{ print \$3; }' | xargs docker rmi --force " #* delete image with tag=<none>
+alias dcrma="echo -e '${reverse}docker kill \$(docker container ls -q)${reset}\n'; docker kill \$(docker container ls -q)"
+alias dirma="echo -e '${reverse}di rm \$(docker image ls -q)${reset}\n'; di rm $(docker image ls -q)"
+alias dvrma="echo -e '${reverse}dv rm $(docker volume ls -q)${reset}\n'; dv rm $(docker volume ls -q)"
+alias dip="echo -e '${reverse}docker inspect  -f {{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}} ${reset}\n'; docker inspect  -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' "
+alias dcps="echo -e '${reverse}docker compose up -d --scale${reset}\n'; docker compose up -d --scale" #* docker-compose up -d --scale whoami=3
+#alias dirma="echo -e '${reverse} docker rmi $(docker images) ${reset}\n'; docker rmi $(docker images)"
+#@ kubectl
+#* alias k='kubectl'
+alias k="echo -e '${reverse}kubecolor${reset}\n'; kubecolor"
+alias kgs="echo -e '${reverse}kubecolor get services${reset}\n'; kubecolor get services"
+alias kgsa="echo -e '${reverse}kubecolor get services -A${reset}\n'; kubecolor get services -A"
+alias kgp="echo -e '${reverse}kubecolor get pods -o wide ${reset}\n'; kubecolor get pods -o wide "
+alias kgd="echo -e '${reverse}kubecolor get deployments${reset}\n'; kubecolor get deployments"
+alias kga="echo -e '${reverse}kubecolor get all${reset}\n'; kubecolor get all"
+alias kgaa="echo -e '${reverse}kubecolor get all -A${reset}\n'; kubecolor get all -A"
+alias kgan="echo -e '${reverse}kubecolor get all -n${reset}\n'; kubecolor get all -n"
+alias kgas="echo -e '${reverse}kubecolor get all -n kube-system${reset}\n'; kubecolor get all -n kube-system"
+alias klo="echo -e '${reverse}kubecolor logs${reset}\n'; kubecolor logs"
+alias kt="echo -e '${reverse}kubecolor top${reset}\n'; kubecolor top"
+alias kgns="echo -e '${reverse}kubecolor get namespaces${reset}\n'; kubecolor get namespaces"
+alias kgpv="echo -e '${reverse}kubecolor get pv${reset}\n'; kubecolor get pv"
+alias kgpvc="echo -e '${reverse}kubecolor get pvc${reset}\n'; kubecolor get pvc"
+alias kgcm="echo -e '${reverse}kubecolor get configmap${reset}\n'; kubecolor get configmap"
+alias kdl="echo -e '${reverse}kubecolor delete${reset}\n'; kubecolor delete"
+alias kdlf="echo -e '${reverse}kubecolor delete -f${reset}\n'; kubecolor delete -f"
+alias kdlan="echo -e '${reverse}kubecolor delete --all deploy,po,ds,rs,sts,svc,cm --namespace${reset}\n'; kubecolor delete --all deploy,po,ds,rs,sts,svc,cm --namespace"
+alias kr="echo -e '${reverse}kubecolor rollout${reset}\n'; kubecolor rollout"
+alias ka="echo -e '${reverse}kubecolor apply${reset}\n'; kubecolor apply"
+alias kaf="echo -e '${reverse}kubecolor apply -f${reset}\n'; kubecolor apply -f"
+alias kfw="echo -e '${reverse}kubecolor port-forward${reset}\n'; kubecolor port-forward"
+alias kdr="echo -e '${reverse}kubecolor describe${reset}\n'; kubecolor describe"
+alias ktp="echo -e '${reverse}kubecolor top pod${reset}\n'; kubecolor top pod"
+alias ktn="echo -e '${reverse}kubecolor top node${reset}\n'; kubecolor top node"
+alias kg="echo -e '${reverse}kubecolor get${reset}\n'; kubecolor get"
+alias kc="echo -e '${reverse}kubecolor config${reset}\n'; kubecolor config"
+alias kcv="echo -e '${reverse}kubecolor config view${reset}\n'; kubecolor config view"
+alias kcc="echo -e '${reverse}kubecolor config get-contexts${reset}\n'; kubecolor config get-contexts"
+alias kcu="echo -e '${reverse}kubecolor config use-context${reset}\n'; kubecolor config use-context"
+alias ke="echo -e '${reverse}kubecolor exec -it${reset}\n'; kubecolor exec -it"
+alias kar="echo -e '${reverse}kubecolor api-resources${reset}\n'; kubecolor api-resources"
+
+alias karo="echo -e '${reverse}kubecolor argo rollouts${reset}\n'; kubecolor argo rollouts"
+alias karod="echo -e '${reverse}kubecolor argo rollouts dashboard${reset}\n'; kubecolor argo rollouts dashboard"
+
+alias kdp="echo ; kubecolor -n kubernetes-dashboard get secret/admin-user -o go-template='{{.data.token | base64decode}}' ; echo ; echo "
+
+#@ kustomize
+alias kz="echo -e '${reverse}kustomize${reset}\n'; kustomize"
+alias kzb="echo -e '${reverse}kustomize build .${reset}\n'; kustomize build ."
+alias kzbf="echo -e '${reverse}kustomize build -f${reset}\n'; kustomize build -f"
+alias kza="echo -e '${reverse}kustomize build .  | kubectl apply -f -${reset}\n'; kustomize build .  | kubectl apply -f -"
+alias kzd="echo -e '${reverse}kustomize build .  | kubectl delete -f -${reset}\n'; kustomize build .  | kubectl delete -f -"
+
+#@ minikube
+alias m="echo -e '${reverse}minikube${reset}\n'; minikube"
+alias mst="echo -e '${reverse}minikube start${reset}\n'; minikube start"
+alias msp="echo -e '${reverse}minikube stop${reset}\n'; minikube stop"
+alias md="echo -e '${reverse}minikube dashboard${reset}\n'; minikube dashboard"
+alias mal="echo -e '${reverse}minikube addons list${reset}\n'; minikube addons list"
+alias ma="echo -e '${reverse}minikube addons${reset}\n'; minikube addons"
+alias mae="echo -e '${reverse}minikube addons enable${reset}\n'; minikube addons enable"
+alias mip="echo -e '${reverse}minikube ip${reset}\n'; minikube ip"
+alias mad="echo -e '${reverse}minikube addons disable${reset}\n'; minikube addons disable"
+alias mms="echo -e '${reverse}sudo -u maverick minikube start &${reset}\n'; sudo -u maverick minikube start &"
+alias mmd="echo -e '${reverse}sudo -u maverick minikube dashboard  &${reset}\n'; sudo -u maverick minikube dashboard  &"
+alias mm="echo -e '${reverse}sudo -u maverick minikube${reset}\n'; sudo -u maverick minikube"
+
+#@ helm
+alias h="echo -e '${reverse}helm${reset}\n'; helm"
+alias hr="echo -e '${reverse}helm repo${reset}\n'; helm repo"
+alias hls="echo -e '${reverse}helm ls -A${reset}\n'; helm ls -A"
+alias hin="echo -e '${reverse}helm install --create-namespace --namespace${reset}\n'; helm install --create-namespace --namespace"
+alias hi="echo -e '${reverse}helm install${reset}\n'; helm install"
+alias hu="echo -e '${reverse}helm uninstall${reset}\n'; helm uninstall"
+alias hdl="echo -e '${reverse}helm delete${reset}\n'; helm delete"
+alias hdln="echo -e '${reverse}helm delete -n${reset}\n'; helm delete -n"
+alias hcr="echo -e '${reverse}helm create${reset}\n'; helm create"
+alias hp="echo -e '${reverse}helm package${reset}\n'; helm package"
+alias hpl="echo -e '${reverse}helm pull${reset}\n'; helm pull"
+alias hps="echo -e '${reverse}helm push${reset}\n'; helm push"
+alias htp="echo -e '${reverse}helm template${reset}\n'; helm template"
+alias hlt="echo -e '${reverse}helm lint${reset}\n'; helm lint"
+alias hg="echo -e '${reverse}helm get${reset}\n'; helm get"
+alias hss="echo -e '${reverse}helm status${reset}\n'; helm status"
+alias hug="echo -e '${reverse}helm upgrade${reset}\n'; helm upgrade"
+alias hud="echo -e '${reverse}helm update${reset}\n'; helm update"
+
+#@ git
+alias g="echo -e '${reverse}git${reset}\n'; git"
+alias ga.="echo -e '${reverse}git add .${reset}\n'; git add ."
+alias gc="echo -e '${reverse}git commit${reset}\n'; git commit"
+alias gbr="echo -e '${reverse}git branch${reset}\n'; git branch"
+alias gbrr="echo -e '${reverse}git branch --remote${reset}\n'; git branch --remote"
+alias gcm="echo -e '${reverse}git commit -m${reset}\n'; git commit -m"
+alias gcam="echo -e '${reverse}git commit -a -m${reset}\n'; git commit -a -m"
+alias gs="echo -e '${reverse}git status${reset}\n'; git status"
+alias gps="echo -e '${reverse}git push${reset}\n'; git push"
+alias gpl="echo -e '${reverse}git pull${reset}\n'; git pull"
+alias gck="echo -e '${reverse}git checkout${reset}\n'; git checkout"
+alias gckb="echo -e '${reverse}git checkout -b${reset}\n'; git checkout -b"
+alias gst="echo -e '${reverse}git stash${reset}\n'; git stash"
+alias gstl="echo -e '${reverse}git stash list | cat${reset}\n'; git stash list | cat"
+alias gstp="echo -e '${reverse}git stash pop${reset}\n'; git stash pop"
+alias gsta="echo -e '${reverse}git stash apply${reset}\n'; git stash apply"
+
+#* python
+#alias python='python.exe'
+#alias pip='pip.exe'
+
+#* rancher get passwd
+alias rancherpass="echo -e '${reverse}docker logs  rancher-server-lts 2>&1 | grep 'Bootstrap Password:${reset}\n'; docker logs  rancher-server-lts 2>&1 | grep 'Bootstrap Password:'"
+
+#* ansible
+alias a="echo -e '${reverse}ansible${reset}\n'; ansible"
+alias ai="echo -e '${reverse}ansible -i inventory.yml -m${reset}\n'; ansible -i inventory.yml -m"
+alias ap="echo -e '${reverse}ansible-playbook${reset}\n'; ansible-playbook"
+alias api="echo -e '${reverse}ansible-playbook -i inventory.yml${reset}\n'; ansible-playbook -i inventory.yml"
+alias apv="echo -e '${reverse}ansible-playbook -vv${reset}\n'; ansible-playbook -vv"  # show log verbose
+alias apc="echo -e '${reverse}ansible-playbook --syntax-check${reset}\n'; ansible-playbook --syntax-check"
+alias ag="echo -e '${reverse}ansible-galaxy${reset}\n'; ansible-galaxy"
+function aia()
+{
+ echo -e "${reverse}ansible -i inventory.yml $1 -m ansible.builtin.shell -a $2 ${reset}\n"
+ ansible -i inventory.yml $1 -m ansible.builtin.shell -a $2
+}
+#* aws
+alias acf="echo -e '${reverse}aws configure${reset}\n'; aws configure"
+alias agi="echo -e '${reverse}aws sts get-caller-identity${reset}\n'; aws sts get-caller-identity"
+alias apip="echo -e '${reverse}aws ec2 describe-instances --profile maverick --region ap-southeast-1 --query 'Reservations[0].Instances[0].PublicIpAddress' --output text --instance-ids'${reset}\n'; aws ec2 describe-instances --profile maverick --region ap-southeast-1 --query 'Reservations[0].Instances[0].PublicIpAddress' --output text --instance-ids"
+#* terraform
+alias t="echo -e '${reverse}terraform${reset}\n'; terraform"
+alias ti="echo -e '${reverse}terraform import${reset}\n'; terraform import"
+alias tw="echo -e '${reverse}terraform workspace${reset}\n'; terraform workspace"
+alias ts="echo -e '${reverse}terraform state${reset}\n'; terraform state"
+alias tss="echo -e '${reverse}terraform state show${reset}\n'; terraform state show" # show specify resources
+alias tsl="echo -e '${reverse}terraform state list${reset}\n'; terraform state list"
+alias ta="echo -e '${reverse}terraform apply${reset}\n'; terraform apply"
+alias tay="echo -e '${reverse}terraform apply -auto-approve${reset}\n'; terraform apply -auto-approve"
+alias tf="echo -e '${reverse}terraform fmt -recursive${reset}\n'; terraform fmt -recursive"
+alias tv="echo -e '${reverse}terraform format -recursive & validate${reset}\n';terraform fmt -recursive && terraform validate"
+alias td="echo -e '${reverse}terraform destroy${reset}\n'; terraform destroy"
+alias tdy="echo -e '${reverse}terraform destroy -auto-approve${reset}\n'; terraform destroy -auto-approve"
+alias tp="echo -e '${reverse}terraform plan${reset}\n'; terraform plan"
+
+
+
+#@ function
+#? find PID by PORT ex:  fpid 123
+function _f_pid() {
+   lsof -i :$1
+}
+_kbp() {
+   local port="$1"
+   local pid
+   pid=$(lsof -t -i :"$port" | awk 'NR==1 {print $1}')
+   if [ -n "$pid" ]; then
+       kill $pid
+       echo "Kill port: $port from pid: $pid"
+   else
+       echo "No process found running on port $port"
+   fi
+}
+
+#? check file exist
+function _fie() {
+   #*  FILE=/etc/resolv.conf
+   if [ -f $1 ]; then
+      echo "🔥🔸🔸🔸🔸🔸🔸🔸🔸 1 🔸🔸🔸🔸🔸🔸🔸🔸🔥"
+   else
+      echo "💀🔸🔸🔸🔸🔸🔸🔸🔸 0 🔸🔸🔸🔸🔸🔸🔸🔸💀"
+   fi
+}
+#? check folder exist
+function _foe() {
+   #*  FILE=/etc/resolv.conf
+   if [ -d $1 ]; then
+      echo "🔥🔸🔸🔸🔸🔸🔸🔸🔸 1 🔸🔸🔸🔸🔸🔸🔸🔸🔥"
+   else
+      echo "💀🔸🔸🔸🔸🔸🔸🔸🔸 0 🔸🔸🔸🔸🔸🔸🔸🔸💀"
+   fi
+}
+#? check path exist
+function _fe() {
+   #*  FILE=/etc/resolv.conf
+   if [ -e $1 ]; then
+      echo "🔥🔸🔸🔸🔸🔸🔸🔸🔸 1 🔸🔸🔸🔸🔸🔸🔸🔸🔥"
+   else
+      echo "💀🔸🔸🔸🔸🔸🔸🔸🔸 0 🔸🔸🔸🔸🔸🔸🔸🔸💀"
+   fi
+}
+
+#? add content into file_existed
+function _af() {
+   local file="$1"
+   local content="$2"
+   cat <<EOT >>"$file"
+$content
+EOT
+}
+#? create file and add content into
+function _caf() {
+   local file="$1"
+   local content="$2"
+   cat <<EOT >"$file"
+$content
+EOT
+}
+#* Function to encode a string to base64
+_e64() {
+   local input="$1"
+   local encoded=$(echo -n "$input" | base64)
+   echo "\n $encoded \n"
+}
+#* Function to decode a base64 string
+_d64() {
+   local input="$1"
+   local decoded=$(echo -n "$input" | base64 --decode)
+   echo "\n $decoded \n"
+}
+_loop() { 
+    while true ; do "$@" ; sleep 1; echo -e '${reverse}' ; done
+}
+_nohup() {
+    nohup "$@" > output.log 2>&1 & 
+}
+# use this to parse to date: date -d @1717432919
+# Hàm chuyển đổi thời gian hiện tại cộng thêm số giờ sang giây kể từ epoch
+_nowAddHour() {
+  local hours=$1
+  local result=$(date -d "+${hours} hour" +%s)
+  echo $result
+}
+
+# Hàm chuyển đổi thời gian hiện tại cộng thêm số phút sang giây kể từ epoch
+_nowAddMinute() {
+  local minutes=$1
+  local result=$(date -d "+${minutes} minute" +%s)
+  echo $result
+}
+
+# Hàm chuyển đổi thời gian hiện tại cộng thêm số giây sang giây kể từ epoch
+_nowAddSecond() {
+  local seconds=$1
+  local result=$(date -d "+${seconds} seconds" +%s)
+  echo $result
+}
+if [ ! -d /trash ]; then
+   echo "🔥🔸🔸🔸🔸🔸🔸🔸🔸 Create /trash 🔸🔸🔸🔸🔸🔸🔸🔸🔥"
+   mkdir /trash 
+fi
+#_rm() {
+ # local target="$1"
+#  echo "${reverse}move to /trash${reset}"
+ # mv "$target" /trash/
+#}
+#alias rmf='rm -r'
+
+
+#* go
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
+function pkill() {
+  ps aux | fzf --height 40% --layout=reverse --prompt="Select process to kill: " | awk '{print $2}' | xargs -r sudo kill
+}
+
+function logg() {
+    git log | fzf --ansi --no-sort \
+        --preview 'echo {} | grep -o "[a-f0-9]\{7\}" | head -1 | xargs -I % git show % --color=always' \
+        --preview-window=right:50%:wrap --height 100% \
+        --bind 'enter:execute(echo {} | grep -o "[a-f0-9]\{7\}" | head -1 | xargs -I % sh -c "git show % | nvim -c \"setlocal buftype=nofile bufhidden=wipe noswapfile nowrap\" -c \"nnoremap <buffer> q :q!<CR>\" -")' \
+        --bind 'ctrl-e:execute(echo {} | grep -o "[a-f0-9]\{7\}" | head -1 | xargs -I % sh -c "gh browse %")'
+}
+
+function repo() {
+  export repo=$(fd . ${HOME}/dev --type=directory --max-depth=1 --color always| awk -F "/" '{print $5}' | fzf --ansi --preview 'onefetch /home/decoder/dev/{1}' --preview-window up)
+    if [[ -z "$repo" ]]; then
+        echo "Repository not found"
+      else
+        echo "Repository found locally, entering"
+        cd ${HOME}/dev/$repo
+        if [[ -d .git ]]; then
+          echo "Fetching origin"
+          git fetch origin
+          onefetch
+        fi
+          create_tmux_session "${HOME}/dev/$repo"
+    fi
+}
+
+
+ export PATH="$HOME/google-cloud-sdk/bin:$PATH"
