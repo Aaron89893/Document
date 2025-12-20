@@ -179,8 +179,8 @@ alias dilsd="echo -e '${reverse}di ls -q${reset}\n'; di ls -q"
 alias drme="echo -e '${reverse}docker rm \$(docker ps -a -f status=exited -q)${reset}\n'; docker rm \$(docker ps -a -f status=exited -q)" #* delete ps with status exited
 alias dirmn="echo 'docker images -a | grep none | awk '{ print \$3; }' | xargs docker rmi --force ${reset}\n'; docker images -a | grep none | awk '{ print \$3; }' | xargs docker rmi --force " #* delete image with tag=<none>
 alias dcrma="echo -e '${reverse}docker kill \$(docker container ls -q)${reset}\n'; docker kill \$(docker container ls -q)"
-alias dirma="echo -e '${reverse}di rm \$(docker image ls -q)${reset}\n'; di rm $(docker image ls -q)"
-alias dvrma="echo -e '${reverse}dv rm $(docker volume ls -q)${reset}\n'; dv rm $(docker volume ls -q)"
+alias dirma="echo -e '${reverse}di rm \$(docker image ls -q)${reset}\n'; di rm \$(docker image ls -q)"
+alias dvrma="echo -e '${reverse}dv rm \$(docker volume ls -q)${reset}\n'; dv rm \$(docker volume ls -q)"
 alias dip="echo -e '${reverse}docker inspect  -f {{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}} ${reset}\n'; docker inspect  -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' "
 alias dcps="echo -e '${reverse}docker compose up -d --scale${reset}\n'; docker compose up -d --scale" #* docker-compose up -d --scale whoami=3
 #alias dirma="echo -e '${reverse} docker rmi $(docker images) ${reset}\n'; docker rmi $(docker images)"
