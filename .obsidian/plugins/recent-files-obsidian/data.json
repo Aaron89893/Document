@@ -1,0 +1,148 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Note",
+      "path": "Laidon/CI config/Note.md"
+    },
+    {
+      "basename": "English",
+      "path": "English.md"
+    },
+    {
+      "basename": "Note",
+      "path": "Note.md"
+    },
+    {
+      "basename": "TIPs",
+      "path": "TIPs.md"
+    },
+    {
+      "basename": "Overview",
+      "path": "Laidon/CI config/Overview.md"
+    },
+    {
+      "basename": "Jenkinsfile",
+      "path": "Laidon/CI config/Jenkinsfile.md"
+    },
+    {
+      "basename": "Bridge - Overlay",
+      "path": "K8S/Network/Bridge - Overlay.md"
+    },
+    {
+      "basename": "Network",
+      "path": "K8S/Network/Network.md"
+    },
+    {
+      "basename": "Container Env",
+      "path": "VScode/Container Env.md"
+    },
+    {
+      "basename": "Cluster Setting up",
+      "path": "K8S/Cluster Setting up.md"
+    },
+    {
+      "basename": "Error",
+      "path": "K8S/Error.md"
+    },
+    {
+      "basename": "Concepts",
+      "path": "Concepts.md"
+    },
+    {
+      "basename": "Note",
+      "path": "K8S/Note.md"
+    },
+    {
+      "basename": "Network",
+      "path": "Docker/Network.md"
+    },
+    {
+      "basename": "IP Link",
+      "path": "Docker/IP Link.md"
+    },
+    {
+      "basename": "Blog",
+      "path": "K8S/Blog.md"
+    },
+    {
+      "basename": "OpenSSL",
+      "path": "OpenSSL.md"
+    },
+    {
+      "basename": "Jenkins",
+      "path": "Laidon/Jenkins/Jenkins.md"
+    },
+    {
+      "basename": "NAT, SNAT, DNAT",
+      "path": "Linux/Iptable/NAT, SNAT, DNAT.md"
+    },
+    {
+      "basename": "Interview",
+      "path": "Interview.md"
+    },
+    {
+      "basename": "Experience",
+      "path": "Experience.md"
+    },
+    {
+      "basename": "tối ưu build image docker",
+      "path": "Docker/tối ưu build image docker.md"
+    },
+    {
+      "basename": "ONBUILD",
+      "path": "Docker/ONBUILD.md"
+    },
+    {
+      "basename": "Drawing 2026-01-17 18.17.07.excalidraw",
+      "path": "Excalidraw/Drawing 2026-01-17 18.17.07.excalidraw.md"
+    },
+    {
+      "basename": "Case Study – AppSec_DevSecOps",
+      "path": "Case Study – AppSec_DevSecOps.md"
+    },
+    {
+      "basename": "CNI",
+      "path": "K8S/Components/CNI.md"
+    },
+    {
+      "basename": "Theory",
+      "path": "Linux/Iptable/Theory.md"
+    },
+    {
+      "basename": "Kubelet",
+      "path": "K8S/Components/Kubelet.md"
+    },
+    {
+      "basename": "Network",
+      "path": "Linux/Network.md"
+    },
+    {
+      "basename": "Components",
+      "path": "K8S/Components/Components.md"
+    },
+    {
+      "basename": "K8s",
+      "path": "K8S/K8s.md"
+    },
+    {
+      "basename": "NIC",
+      "path": "VirtualBox/NIC.md"
+    },
+    {
+      "basename": "VERR_NAT_REDIR_SETUP",
+      "path": "VirtualBox/VERR_NAT_REDIR_SETUP.md"
+    },
+    {
+      "basename": "Roadmap",
+      "path": "K8S/Roadmap.md"
+    },
+    {
+      "basename": "VTC",
+      "path": "VTC.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}
