@@ -1,7 +1,8 @@
 {
   "cssTheme": "Things",
   "theme": "moonstone",
-  "baseFontSize": 25,
+  "baseFontSize": 18,
   "nativeMenus": true,
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "accentColor": "#4a8cb0"
 }

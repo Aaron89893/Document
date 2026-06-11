@@ -4,9 +4,15 @@
   "omnisearch",
   "recent-files-obsidian",
   "obsidian-mind-map",
-  "obsidian-quiet-outline",
   "highlightr-plugin",
   "mousewheel-image-zoom",
   "obsidian-image-toolkit",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-quiet-outline",
+  "workspaces-plus",
+  "attachment-management",
+  "find-unlinked-files",
+  "file-cleaner-redux",
+  "background-image",
+  "obsidian-icon-folder"
 ]

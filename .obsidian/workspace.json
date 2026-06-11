@@ -4,39 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "02c6bcd758a83df1",
+        "id": "e3d8a5daa1b64ce0",
         "type": "tabs",
         "children": [
           {
-            "id": "5d73bbd2e06e9086",
+            "id": "23a91a01a86e60b1",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English.md",
+                "file": "English/Vocab.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "English"
+              "title": "Vocab"
             }
           },
           {
-            "id": "affd5fdfea26187a",
+            "id": "0f2937285bf35e6f",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laidon/CI config/Note.md",
+                "file": "Start over.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Note"
+              "title": "Start over"
+            }
+          },
+          {
+            "id": "e035933d02d17451",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "K8S/Architecture.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Architecture"
             }
           }
         ],
@@ -60,7 +76,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -72,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#CNI",
+                "query": "Pasted image 20260310152114",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,15 +115,15 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
+              "icon": "clock",
+              "title": "Recent files"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 208.50799560546875
+    "width": 314.50499725341797
   },
   "right": {
     "id": "3ed7e14978008606",
@@ -123,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "K8S/Cluster Setting up.md",
+                "file": "Laidon/Procedure/Cloud Connector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +149,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Cluster Setting up"
+              "title": "Backlinks for Cloud Connector"
             }
           },
           {
@@ -142,12 +158,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "K8S/Cluster Setting up.md",
+                "file": "Start over.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Cluster Setting up"
+              "title": "Outgoing links from Start over"
             }
           },
           {
@@ -185,23 +201,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laidon/CI config/Note.md",
+                "file": "Laidon/Procedure/MD deployment.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Note"
-            }
-          },
-          {
-            "id": "6efbae6d01a13fd3",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {},
-              "icon": "lines-of-text",
-              "title": "Quiet Outline"
+              "title": "Outline of MD deployment"
             }
           },
           {
@@ -213,9 +219,31 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "b0c90686000efe0a",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
+            }
+          },
+          {
+            "id": "e935c6f9ac6801db",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "Start over.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -223,6 +251,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -232,57 +261,61 @@
       "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "workspaces:Manage workspace layouts": false,
+      "zk-prefixer:Create new unique note": false,
+      "publish:Publish changes...": false,
+      "markdown-importer:Open format converter": false,
+      "file-cleaner-redux:Clean files": false
     }
   },
-  "active": "affd5fdfea26187a",
+  "active": "b0c90686000efe0a",
   "lastOpenFiles": [
-    "Pasted image 20260212143657.png",
-    "English.md",
-    "Laidon/CI config/Note.md",
-    "Note.md",
-    "TIPs.md",
-    "Laidon/CI config/Overview.md",
-    "Pasted image 20260212101449.png",
-    "Pasted image 20260212095955.png",
-    "Pasted image 20260212095615.png",
-    "Pasted image 20260212095517.png",
-    "Pasted image 20260212095447.png",
-    "Pasted image 20260212095415.png",
-    "Pasted image 20260212094956.png",
-    "Pasted image 20260212094758.png",
-    "Pasted image 20260212094752.png",
-    "Laidon/CI config/Jenkinsfile.md",
-    "K8S/Network/Bridge - Overlay.md",
-    "Pasted image 20260212070841.png",
-    "K8S/Network/Network.md",
-    "desktop.ini",
-    "Laidon/CI config",
-    "VScode/Container Env.md",
-    "K8S/Cluster Setting up.md",
-    "K8S/Error.md",
-    "Concepts.md",
-    "VSCode.md",
-    "VScode",
-    "K8S/Note.md",
-    "K8S/Network/Untitled",
-    "K8S/Network",
-    "Docker/Network.md",
-    "Docker/IP Link.md",
-    "K8S/Untitled.md",
-    "K8S/Blog.md",
+    "K8S/Architecture.md",
+    "Start over.md",
+    "Attachments/Pasted image 20260611175300.png",
+    "Laidon/Procedure/Cloud Connector.md",
+    "Laidon/Procedure/Deployment order.md",
+    "Laidon/Procedure/Setup Env.md",
+    "Attachments/Pasted image 20260611171201.png",
+    "Attachments/Pasted image 20260611171129.png",
+    "Laidon/Procedure/SSO BTP & IAS.md",
+    "Laidon/Procedure/MD deployment.md",
+    "Attachments/Pasted image 20260611162723.png",
+    "Attachments/Pasted image 20260611162719.png",
+    "Attachments/Pasted image 20260611162707.png",
+    "Attachments/K8S/Architecture/IMG-Architecture-4.png",
+    "Attachments/K8S/Architecture/IMG-Architecture-3.png",
+    "Attachments/K8S/Architecture/IMG-Architecture-2.png",
+    "Attachments/K8S/Architecture/IMG-Architecture.png",
+    "English/Untitled.md",
+    "Concept/SP, IdP, SAML.md",
+    "Excalidraw/Drawing 2026-01-17 18.17.07.excalidraw.md",
+    "English/Vocab.md",
+    "Experience.md",
+    "Nam du.md",
+    "Attachments/Recording 20260611145719.m4a",
+    "Tags",
     "OpenSSL.md",
-    "Laidon/Jenkins/Jenkins.md",
-    "SAP/Backup-Recovery.md",
-    "SAP",
+    "Note.md",
+    "2026-02-13.md",
+    "broken links output.md",
+    "empty files.md",
+    "K8S/Roadmap.md",
+    "Linux/Regex.md",
+    "Untitled.md",
+    "orphaned files output.md",
+    "K8S/Cluster Setting up.md",
+    "Untitled",
     "Laidon/Jenkins/SSO MFA.md",
-    "Laidon/Jenkins/Shared libs.md",
-    "Laidon/Jenkins/Log Management.md",
-    "Laidon/Jenkins/Jenkins Master Slave stuck several times - Temp Resolved.md",
-    "Laidon/Jenkins",
-    "Gitlab",
-    "Laidon",
-    "Untitled 2.base",
+    "K8S/Network/Bridge - Overlay.md",
+    "Attachments/VirtualBox/VERR_NAT_REDIR_SETUP",
+    "Attachments/VirtualBox/NIC",
+    "Attachments/VirtualBox",
+    "Attachments/VTC",
+    "Attachments/VScode/Container Env",
+    "Attachments/VScode",
+    "Attachments/StartUp/Research Market",
     "Untitled.canvas"
   ]
 }

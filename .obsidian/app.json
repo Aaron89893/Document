@@ -1,6 +1,7 @@
 {
   "promptDelete": false,
   "pdfExportSettings": {
+    "includeName": true,
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
@@ -9,5 +10,8 @@
   "rightToLeft": true,
   "strictLineBreaks": false,
   "tabSize": 2,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "Attachments",
+  "alwaysUpdateLinks": true
 }

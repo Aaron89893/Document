@@ -1,0 +1,7 @@
+{
+  "cssTheme": "Things",
+  "theme": "moonstone",
+  "baseFontSize": 19,
+  "nativeMenus": true,
+  "baseFontSizeAction": true
+}

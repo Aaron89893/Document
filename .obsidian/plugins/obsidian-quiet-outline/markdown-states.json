@@ -1,14 +1,14 @@
 {
   "K8S/Cluster Setting up.md": {
-    "scroll": 0,
+    "scroll": 247.27158404463856,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 22
+        "line": 5,
+        "ch": 101
       },
       "to": {
-        "line": 11,
-        "ch": 22
+        "line": 5,
+        "ch": 101
       }
     },
     "expandedKeys": [
@@ -36,7 +36,7 @@
     "expandedKeys": []
   },
   "K8S/K8s.md": {
-    "scroll": 47.5830439622188,
+    "scroll": 47.427679896663726,
     "cursor": {
       "from": {
         "line": 97,
@@ -64,23 +64,18 @@
     "expandedKeys": []
   },
   "K8S/Roadmap.md": {
-    "scroll": 110.90719130714274,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 50,
-        "ch": 4
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 50,
-        "ch": 4
+        "line": 0,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-0",
-      "item-2-2",
-      "item-2-4",
-      "item-2-6"
-    ]
+    "expandedKeys": []
   },
   "VirtualBox/VERR_NAT_REDIR_SETUP.md": {
     "scroll": 0.901370502906583,
@@ -97,21 +92,21 @@
     "expandedKeys": []
   },
   "English.md": {
-    "scroll": 58.823424126668606,
+    "scroll": 83.99893719979022,
     "cursor": {
       "from": {
-        "line": 71,
-        "ch": 33
+        "line": 115,
+        "ch": 12
       },
       "to": {
-        "line": 71,
-        "ch": 33
+        "line": 115,
+        "ch": 12
       }
     },
     "expandedKeys": []
   },
   "Experience.md": {
-    "scroll": 44.050924792047795,
+    "scroll": 43.96898373053266,
     "cursor": {
       "from": {
         "line": 98,
@@ -203,15 +198,15 @@
     "expandedKeys": []
   },
   "K8S/Untitled.md": {
-    "scroll": 56.80782778563559,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 41,
-        "ch": 0
+        "line": 0,
+        "ch": 36
       },
       "to": {
-        "line": 41,
-        "ch": 0
+        "line": 0,
+        "ch": 36
       }
     },
     "expandedKeys": []
@@ -268,11 +263,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 2,
+        "line": 0,
         "ch": 0
       }
     },
@@ -307,7 +302,7 @@
     "expandedKeys": []
   },
   "K8S/Components/Components.md": {
-    "scroll": 8.345792634731444,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,
@@ -338,11 +333,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 21,
+        "line": 7,
         "ch": 0
       },
       "to": {
-        "line": 21,
+        "line": 7,
         "ch": 0
       }
     },
@@ -489,44 +484,44 @@
     "scroll": 105.98814447624532,
     "cursor": {
       "from": {
-        "line": 117,
-        "ch": 0
+        "line": 39,
+        "ch": 12
       },
       "to": {
-        "line": 117,
-        "ch": 0
+        "line": 39,
+        "ch": 12
       }
     },
     "expandedKeys": [
-      "item-1-1",
-      "item-1-4",
-      "item-1-8"
+      "item-1-4"
     ]
   },
   "Docker/ONBUILD.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 36,
+        "ch": 49
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 36,
+        "ch": 49
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-4"
+    ]
   },
   "Laidon/Untitled.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 4,
+        "ch": 28
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 4,
+        "ch": 28
       }
     },
     "expandedKeys": []
@@ -591,12 +586,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 36
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 2,
-        "ch": 36
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -647,45 +642,49 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 2,
+        "line": 0,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "Laidon/CI config/Jenkinsfile.md": {
-    "scroll": 30.918831469545182,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 52,
-        "ch": 15
+        "line": 0,
+        "ch": 3
       },
       "to": {
-        "line": 52,
-        "ch": 15
+        "line": 0,
+        "ch": 3
+      }
+    },
+    "expandedKeys": [
+      "item-3-1",
+      "item-2-0",
+      "item-2-5"
+    ]
+  },
+  "K8S/Network/Network.md": {
+    "scroll": 53.39746583896781,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 52
+      },
+      "to": {
+        "line": 3,
+        "ch": 52
       }
     },
     "expandedKeys": [
       "item-2-0"
     ]
-  },
-  "K8S/Network/Network.md": {
-    "scroll": 0,
-    "cursor": {
-      "from": {
-        "line": 0,
-        "ch": 0
-      },
-      "to": {
-        "line": 0,
-        "ch": 0
-      }
-    },
-    "expandedKeys": []
   },
   "Laidon/CI config/Note.md": {
     "scroll": 9.843463134765624,
@@ -702,18 +701,21 @@
     "expandedKeys": []
   },
   "Laidon/CI config/Overview.md": {
-    "scroll": 92.57737617246553,
+    "scroll": 34.03344707833362,
     "cursor": {
       "from": {
-        "line": 31,
-        "ch": 0
+        "line": 37,
+        "ch": 13
       },
       "to": {
-        "line": 31,
-        "ch": 0
+        "line": 37,
+        "ch": 13
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-3-4",
+      "item-2-3"
+    ]
   },
   "TIPs.md": {
     "scroll": 0,
@@ -724,6 +726,1467 @@
       },
       "to": {
         "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/CI config/Common File.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 8
+      },
+      "to": {
+        "line": 0,
+        "ch": 8
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/CI config/Common Files.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 18
+      },
+      "to": {
+        "line": 2,
+        "ch": 18
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "Laidon/Note.md": {
+    "scroll": 520.9319472107504,
+    "cursor": {
+      "from": {
+        "line": 626,
+        "ch": 0
+      },
+      "to": {
+        "line": 626,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-4",
+      "item-2-5",
+      "item-2-13",
+      "item-2-16"
+    ]
+  },
+  "Laidon/Jenkins/Jenkins.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 0
+      },
+      "to": {
+        "line": 14,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "Laidon/CI config/Jenkinsfile&Groovy.md": {
+    "scroll": 93.37021855198182,
+    "cursor": {
+      "from": {
+        "line": 93,
+        "ch": 0
+      },
+      "to": {
+        "line": 93,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-1",
+      "item-2-0",
+      "item-3-10",
+      "item-2-7",
+      "item-2-13",
+      "item-2-5"
+    ]
+  },
+  "Laidon/CI config/Files & Vars.md": {
+    "scroll": 67.51526999789657,
+    "cursor": {
+      "from": {
+        "line": 71,
+        "ch": 0
+      },
+      "to": {
+        "line": 71,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-1-12"
+    ]
+  },
+  "Laidon/Concept.md": {
+    "scroll": 47.50813427904565,
+    "cursor": {
+      "from": {
+        "line": 56,
+        "ch": 0
+      },
+      "to": {
+        "line": 56,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "Laidon/CI config/FileExplanation/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 11
+      },
+      "to": {
+        "line": 0,
+        "ch": 11
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/CI config/FileExplanation/Experimental.groovy.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/CI config/FileExplanation/Experimental.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 16,
+        "ch": 0
+      },
+      "to": {
+        "line": 16,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/CI config/FileExplanation/FileExplanation.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-8",
+      "item-2-24",
+      "item-2-31",
+      "item-2-16"
+    ]
+  },
+  "Laidon/CI config/FileExplanation/Common Flow.md": {
+    "scroll": 53.66448898287516,
+    "cursor": {
+      "from": {
+        "line": 78,
+        "ch": 0
+      },
+      "to": {
+        "line": 78,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-8",
+      "item-2-24"
+    ]
+  },
+  "Laidon/CI config/FileExplanation/simplemdgSrvSocket.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 41
+      },
+      "to": {
+        "line": 21,
+        "ch": 41
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/CI config/FileExplanation/simplemdgSrvConfiguration.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 28
+      },
+      "to": {
+        "line": 10,
+        "ch": 28
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "Laidon/CI config/FileExplanation/SrvConfiguration.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 20
+      },
+      "to": {
+        "line": 0,
+        "ch": 20
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/CI config/FileExplanation/SrvSocket.md": {
+    "scroll": 10.364921550606669,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 36
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/CI config/Srv.md": {
+    "scroll": 7.8741281675066706,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 29
+      },
+      "to": {
+        "line": 11,
+        "ch": 29
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/SAP/Backup-Recovery.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/SAP/Untitled.md": {
+    "scroll": 56.39564176031163,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 32
+      },
+      "to": {
+        "line": 0,
+        "ch": 32
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/SAP/Arch.md": {
+    "scroll": 4.921221489287952,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 4
+      },
+      "to": {
+        "line": 1,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Jenkins/Library.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 50
+      },
+      "to": {
+        "line": 10,
+        "ch": 50
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/CI config/Flow.md": {
+    "scroll": 31.869776230411855,
+    "cursor": {
+      "from": {
+        "line": 60,
+        "ch": 0
+      },
+      "to": {
+        "line": 60,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-2",
+      "item-2-4",
+      "item-3-5",
+      "item-2-11",
+      "item-4-6"
+    ]
+  },
+  "Laidon/Jenkins/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Jenkins/UI Explanation.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 147
+      },
+      "to": {
+        "line": 3,
+        "ch": 147
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Procedure/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Procedure/MD deployment.md": {
+    "scroll": 98.42129167476996,
+    "cursor": {
+      "from": {
+        "line": 80,
+        "ch": 30
+      },
+      "to": {
+        "line": 80,
+        "ch": 30
+      }
+    },
+    "expandedKeys": [
+      "item-2-9",
+      "item-3-14",
+      "item-2-1",
+      "item-3-6",
+      "item-3-9",
+      "item-3-11",
+      "item-4-15",
+      "item-3-17",
+      "item-2-20",
+      "item-3-23",
+      "item-3-2"
+    ]
+  },
+  "Laidon/CF/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/CF/SAP BTP Roles Overview.md": {
+    "scroll": 13.205012754218332,
+    "cursor": {
+      "from": {
+        "line": 35,
+        "ch": 148
+      },
+      "to": {
+        "line": 35,
+        "ch": 148
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/CF/Connectivity.md": {
+    "scroll": 7.661052057296214,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 0
+      },
+      "to": {
+        "line": 14,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/CF/Overview.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Gitlab/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Gitlab/Note.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 50,
+        "ch": 0
+      },
+      "to": {
+        "line": 50,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "Health.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 32
+      },
+      "to": {
+        "line": 10,
+        "ch": 32
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
+    ]
+  },
+  "Linux/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Linux/Bash Script.md": {
+    "scroll": 33.341000178520474,
+    "cursor": {
+      "from": {
+        "line": 59,
+        "ch": 0
+      },
+      "to": {
+        "line": 59,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/SAP/RoadMap.md": {
+    "scroll": 171.52981344464547,
+    "cursor": {
+      "from": {
+        "line": 126,
+        "ch": 60
+      },
+      "to": {
+        "line": 126,
+        "ch": 60
+      }
+    },
+    "expandedKeys": [
+      "item-1-22",
+      "item-2-0",
+      "item-2-25",
+      "item-2-29",
+      "item-2-34",
+      "item-2-23",
+      "item-2-19"
+    ]
+  },
+  "conflict-files-obsidian-git.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 10
+      },
+      "to": {
+        "line": 5,
+        "ch": 10
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Procedure/IAC.md": {
+    "scroll": 50.10053913168514,
+    "cursor": {
+      "from": {
+        "line": 56,
+        "ch": 18
+      },
+      "to": {
+        "line": 56,
+        "ch": 18
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-3-1",
+      "item-2-4",
+      "item-2-11"
+    ]
+  },
+  "English/Vocab.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/SAP/Cloud Identity Services Overview.md": {
+    "scroll": 136.6268397798478,
+    "cursor": {
+      "from": {
+        "line": 41,
+        "ch": 2
+      },
+      "to": {
+        "line": 41,
+        "ch": 2
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-1-0"
+    ]
+  },
+  "Laidon/CF/XSUAA.md": {
+    "scroll": 111.79809071783066,
+    "cursor": {
+      "from": {
+        "line": 109,
+        "ch": 12
+      },
+      "to": {
+        "line": 109,
+        "ch": 12
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-6"
+    ]
+  },
+  "Laidon/Procedure/Deployment order.md": {
+    "scroll": 5.590430682966477,
+    "cursor": {
+      "from": {
+        "line": 19,
+        "ch": 0
+      },
+      "to": {
+        "line": 19,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "2026-04-03.md": {
+    "scroll": 0.4318209873645989,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Procedure/Setup Env.md": {
+    "scroll": 17.65631021233697,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 0
+      },
+      "to": {
+        "line": 18,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-10",
+      "item-1-0",
+      "item-2-4"
+    ]
+  },
+  "Laidon/Procedure/Cloud Connector.md": {
+    "scroll": 71.26956264357989,
+    "cursor": {
+      "from": {
+        "line": 22,
+        "ch": 25
+      },
+      "to": {
+        "line": 22,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "Personal Info.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 20,
+        "ch": 31
+      },
+      "to": {
+        "line": 20,
+        "ch": 31
+      }
+    },
+    "expandedKeys": []
+  },
+  "Start Up.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 10
+      },
+      "to": {
+        "line": 2,
+        "ch": 10
+      }
+    },
+    "expandedKeys": []
+  },
+  "ST.md": {
+    "scroll": 84.9436842972816,
+    "cursor": {
+      "from": {
+        "line": 80,
+        "ch": 0
+      },
+      "to": {
+        "line": 80,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Review CNMNM/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Review CNMNM/Handle text.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 29
+      },
+      "to": {
+        "line": 0,
+        "ch": 29
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Procedure/CLoud Logging.md": {
+    "scroll": 66.83271472983573,
+    "cursor": {
+      "from": {
+        "line": 75,
+        "ch": 0
+      },
+      "to": {
+        "line": 75,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-3-2",
+      "item-4-4"
+    ]
+  },
+  "Laidon/Procedure/SSO.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Procedure/SSO SimpleMDG BTP & IAS.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Procedure/SSO BTP & IAS.md": {
+    "scroll": 60.00277992511467,
+    "cursor": {
+      "from": {
+        "line": 59,
+        "ch": 8
+      },
+      "to": {
+        "line": 59,
+        "ch": 8
+      }
+    },
+    "expandedKeys": [
+      "item-2-2"
+    ]
+  },
+  "StartUp/Research Market.md": {
+    "scroll": 81.17440744074023,
+    "cursor": {
+      "from": {
+        "line": 102,
+        "ch": 21
+      },
+      "to": {
+        "line": 98,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-6"
+    ]
+  },
+  "StartUp/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "StartUp/Tiktok.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 49,
+        "ch": 0
+      },
+      "to": {
+        "line": 49,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-2"
+    ]
+  },
+  "Linux/Regex.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Linux/Handle text.md": {
+    "scroll": 41.0078943481516,
+    "cursor": {
+      "from": {
+        "line": 56,
+        "ch": 21
+      },
+      "to": {
+        "line": 56,
+        "ch": 21
+      }
+    },
+    "expandedKeys": [
+      "item-2-4"
+    ]
+  },
+  "Review CNMNM/Exam.md": {
+    "scroll": 49.18073903778453,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 83
+      },
+      "to": {
+        "line": 2,
+        "ch": 83
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Terraform/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Terraform/Terraform.md": {
+    "scroll": 183.59864277459894,
+    "cursor": {
+      "from": {
+        "line": 201,
+        "ch": 17
+      },
+      "to": {
+        "line": 201,
+        "ch": 17
+      }
+    },
+    "expandedKeys": [
+      "item-3-9",
+      "item-2-6"
+    ]
+  },
+  "Laidon/Terraform/Teraform.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 21
+      },
+      "to": {
+        "line": 12,
+        "ch": 21
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Procedure/New Project.md": {
+    "scroll": 19.30356147212978,
+    "cursor": {
+      "from": {
+        "line": 46,
+        "ch": 94
+      },
+      "to": {
+        "line": 46,
+        "ch": 94
+      }
+    },
+    "expandedKeys": [
+      "item-3-2"
+    ]
+  },
+  "Laidon/Procedure/Cross check.md": {
+    "scroll": 7.428571806030634,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 11
+      },
+      "to": {
+        "line": 18,
+        "ch": 11
+      }
+    },
+    "expandedKeys": []
+  },
+  "Nam du.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 9
+      },
+      "to": {
+        "line": 0,
+        "ch": 9
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/GIT/Note.md": {
+    "scroll": 79.38631309467027,
+    "cursor": {
+      "from": {
+        "line": 79,
+        "ch": 0
+      },
+      "to": {
+        "line": 79,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-3"
+    ]
+  },
+  "Laidon/GIT/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Procedure/Memory.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 36
+      },
+      "to": {
+        "line": 18,
+        "ch": 36
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "Laidon/Jenkins/Backup-Restore.md": {
+    "scroll": 8.999014868709956,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 291
+      },
+      "to": {
+        "line": 8,
+        "ch": 291
+      }
+    },
+    "expandedKeys": []
+  },
+  "StartUp/KOC.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 2
+      },
+      "to": {
+        "line": 9,
+        "ch": 2
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Procedure/Update XS-Security.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Concept/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Concept/SP, IDP, SAML.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 49
+      },
+      "to": {
+        "line": 4,
+        "ch": 49
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "Concept/SP, IdP, SAML.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 0
+      },
+      "to": {
+        "line": 17,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Procedure/SSO Okta.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Procedure/Setup Env Check list.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 109
+      },
+      "to": {
+        "line": 8,
+        "ch": 109
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Procedure/Release new Version.md": {
+    "scroll": 2.4835344188155357,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 17
+      },
+      "to": {
+        "line": 11,
+        "ch": 17
+      }
+    },
+    "expandedKeys": [
+      "item-3-0"
+    ]
+  },
+  "Laidon/Procedure/Update Memory.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 17
+      },
+      "to": {
+        "line": 9,
+        "ch": 17
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "Laidon/Procedure/SQL HANA.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 4
+      },
+      "to": {
+        "line": 0,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Procedure/Check list.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 71
+      },
+      "to": {
+        "line": 11,
+        "ch": 71
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "Laidon/Procedure/OT issue F4.md": {
+    "scroll": 5.783157697767445,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 43
+      },
+      "to": {
+        "line": 10,
+        "ch": 43
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Procedure/NOTE.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Untitled 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Bat dau Lai.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 13
+      },
+      "to": {
+        "line": 0,
+        "ch": 13
+      }
+    },
+    "expandedKeys": []
+  },
+  "Restart.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 36
+      },
+      "to": {
+        "line": 1,
+        "ch": 36
+      }
+    },
+    "expandedKeys": []
+  },
+  "Start over.md": {
+    "scroll": 44.96538930066662,
+    "cursor": {
+      "from": {
+        "line": 53,
+        "ch": 0
+      },
+      "to": {
+        "line": 53,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1"
+    ]
+  },
+  "Laidon/Procedure/Release-Migrate.md": {
+    "scroll": 24.810627454197483,
+    "cursor": {
+      "from": {
+        "line": 28,
+        "ch": 0
+      },
+      "to": {
+        "line": 28,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-2",
+      "item-2-1"
+    ]
+  },
+  "K8S/Architecture.md": {
+    "scroll": 8.503805347587589,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "202606111350.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "empty files.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 23
+      },
+      "to": {
+        "line": 5,
+        "ch": 23
+      }
+    },
+    "expandedKeys": []
+  },
+  "broken links output.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "orphaned files output.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 274,
+        "ch": 29
+      },
+      "to": {
+        "line": 274,
+        "ch": 29
+      }
+    },
+    "expandedKeys": []
+  },
+  "Laidon/Jenkins/SSO MFA.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "2026-02-13.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "English/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
         "ch": 0
       }
     },

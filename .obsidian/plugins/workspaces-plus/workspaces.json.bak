@@ -1,0 +1,563 @@
+{
+  "workspaces": {
+    "laidon": {
+      "main": {
+        "id": "00eac850e92ce807",
+        "type": "split",
+        "children": [
+          {
+            "id": "e3d8a5daa1b64ce0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "23a91a01a86e60b1",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "English/Vocab.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Vocab"
+                }
+              },
+              {
+                "id": "0f2937285bf35e6f",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Start over.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Start over"
+                }
+              },
+              {
+                "id": "ab173554e2783f1a",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Laidon/Procedure/Deployment order.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Deployment order"
+                }
+              },
+              {
+                "id": "d7e3b445b84f67d3",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Laidon/Procedure/MD deployment.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "MD deployment"
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "49eb5b393c164a46",
+        "type": "split",
+        "children": [
+          {
+            "id": "143ce8b17ce53d4f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e2b48197b83518d1",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "07b6e2202b365e44",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "Pasted image 20260310152114",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "fd6c73e066c47f32",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "3544e9668822c388",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 314.50499725341797
+      },
+      "right": {
+        "id": "3ed7e14978008606",
+        "type": "split",
+        "children": [
+          {
+            "id": "7a526da7e4531f18",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5ade6372e7076ca7",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Laidon/Procedure/MD deployment.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for MD deployment"
+                }
+              },
+              {
+                "id": "e675f749422cf929",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Start over.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Start over"
+                }
+              },
+              {
+                "id": "b77ec486e99d1dda",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "b1bef85c7f3d6dd3",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "5830ee2f368801ea",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Laidon/Procedure/MD deployment.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of MD deployment"
+                }
+              },
+              {
+                "id": "d3769976e36674c6",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              },
+              {
+                "id": "b0c90686000efe0a",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {},
+                  "icon": "lines-of-text",
+                  "title": "Quiet Outline"
+                }
+              },
+              {
+                "id": "e935c6f9ac6801db",
+                "type": "leaf",
+                "state": {
+                  "type": "footnotes",
+                  "state": {
+                    "file": "Laidon/Procedure/Release-Migrate.md"
+                  },
+                  "icon": "lucide-file-signature",
+                  "title": "Footnotes"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "bases:Create new base": false,
+          "obsidian-excalidraw-plugin:New drawing": false,
+          "omnisearch:Omnisearch": false,
+          "obsidian-git:Open Git source control": false,
+          "workspaces:Manage workspace layouts": false,
+          "zk-prefixer:Create new unique note": false,
+          "publish:Publish changes...": false,
+          "markdown-importer:Open format converter": false,
+          "file-cleaner-redux:Clean files": false,
+          "obsidian-file-cleaner:Clean files": false
+        }
+      },
+      "active": "d7e3b445b84f67d3",
+      "mtime": "2026-06-11T14:38:33+07:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "K8S",
+          "Laidon",
+          "Laidon/Procedure"
+        ]
+      }
+    },
+    "K8S": {
+      "main": {
+        "id": "00eac850e92ce807",
+        "type": "split",
+        "children": [
+          {
+            "id": "e3d8a5daa1b64ce0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "23a91a01a86e60b1",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "English/Vocab.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Vocab"
+                }
+              },
+              {
+                "id": "0f2937285bf35e6f",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Start over.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Start over"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "49eb5b393c164a46",
+        "type": "split",
+        "children": [
+          {
+            "id": "143ce8b17ce53d4f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e2b48197b83518d1",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "07b6e2202b365e44",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "Pasted image 20260310152114",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "fd6c73e066c47f32",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "3544e9668822c388",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 314.50499725341797
+      },
+      "right": {
+        "id": "3ed7e14978008606",
+        "type": "split",
+        "children": [
+          {
+            "id": "7a526da7e4531f18",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5ade6372e7076ca7",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Start over.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Start over"
+                }
+              },
+              {
+                "id": "e675f749422cf929",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Start over.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Start over"
+                }
+              },
+              {
+                "id": "b77ec486e99d1dda",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "b1bef85c7f3d6dd3",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "5830ee2f368801ea",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Laidon/Procedure/MD deployment.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of MD deployment"
+                }
+              },
+              {
+                "id": "d3769976e36674c6",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              },
+              {
+                "id": "b0c90686000efe0a",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {},
+                  "icon": "lines-of-text",
+                  "title": "Quiet Outline"
+                }
+              },
+              {
+                "id": "e935c6f9ac6801db",
+                "type": "leaf",
+                "state": {
+                  "type": "footnotes",
+                  "state": {
+                    "file": "Laidon/Procedure/Release-Migrate.md"
+                  },
+                  "icon": "lucide-file-signature",
+                  "title": "Footnotes"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "bases:Create new base": false,
+          "obsidian-excalidraw-plugin:New drawing": false,
+          "omnisearch:Omnisearch": false,
+          "obsidian-git:Open Git source control": false,
+          "workspaces:Manage workspace layouts": false,
+          "zk-prefixer:Create new unique note": false,
+          "publish:Publish changes...": false,
+          "markdown-importer:Open format converter": false,
+          "file-cleaner-redux:Clean files": false,
+          "obsidian-file-cleaner:Clean files": false
+        }
+      },
+      "active": "0f2937285bf35e6f",
+      "mtime": "2026-06-11T14:39:06+07:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "K8S"
+        ]
+      }
+    }
+  },
+  "active": "laidon"
+}

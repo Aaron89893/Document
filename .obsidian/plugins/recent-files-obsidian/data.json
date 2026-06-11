@@ -1,144 +1,176 @@
 {
   "recentFiles": [
     {
-      "basename": "Note",
-      "path": "Laidon/CI config/Note.md"
+      "basename": "Start over",
+      "path": "Start over.md"
     },
     {
-      "basename": "English",
-      "path": "English.md"
+      "basename": "Architecture",
+      "path": "K8S/Architecture.md"
     },
     {
-      "basename": "Note",
-      "path": "Note.md"
+      "basename": "Cloud Connector",
+      "path": "Laidon/Procedure/Cloud Connector.md"
     },
     {
-      "basename": "TIPs",
-      "path": "TIPs.md"
+      "basename": "Deployment order",
+      "path": "Laidon/Procedure/Deployment order.md"
     },
     {
-      "basename": "Overview",
-      "path": "Laidon/CI config/Overview.md"
+      "basename": "Setup Env",
+      "path": "Laidon/Procedure/Setup Env.md"
     },
     {
-      "basename": "Jenkinsfile",
-      "path": "Laidon/CI config/Jenkinsfile.md"
+      "basename": "SSO BTP & IAS",
+      "path": "Laidon/Procedure/SSO BTP & IAS.md"
     },
     {
-      "basename": "Bridge - Overlay",
-      "path": "K8S/Network/Bridge - Overlay.md"
+      "basename": "MD deployment",
+      "path": "Laidon/Procedure/MD deployment.md"
     },
     {
-      "basename": "Network",
-      "path": "K8S/Network/Network.md"
-    },
-    {
-      "basename": "Container Env",
-      "path": "VScode/Container Env.md"
-    },
-    {
-      "basename": "Cluster Setting up",
-      "path": "K8S/Cluster Setting up.md"
-    },
-    {
-      "basename": "Error",
-      "path": "K8S/Error.md"
-    },
-    {
-      "basename": "Concepts",
-      "path": "Concepts.md"
-    },
-    {
-      "basename": "Note",
-      "path": "K8S/Note.md"
-    },
-    {
-      "basename": "Network",
-      "path": "Docker/Network.md"
-    },
-    {
-      "basename": "IP Link",
-      "path": "Docker/IP Link.md"
-    },
-    {
-      "basename": "Blog",
-      "path": "K8S/Blog.md"
-    },
-    {
-      "basename": "OpenSSL",
-      "path": "OpenSSL.md"
-    },
-    {
-      "basename": "Jenkins",
-      "path": "Laidon/Jenkins/Jenkins.md"
-    },
-    {
-      "basename": "NAT, SNAT, DNAT",
-      "path": "Linux/Iptable/NAT, SNAT, DNAT.md"
-    },
-    {
-      "basename": "Interview",
-      "path": "Interview.md"
-    },
-    {
-      "basename": "Experience",
-      "path": "Experience.md"
-    },
-    {
-      "basename": "tối ưu build image docker",
-      "path": "Docker/tối ưu build image docker.md"
-    },
-    {
-      "basename": "ONBUILD",
-      "path": "Docker/ONBUILD.md"
+      "basename": "SP, IdP, SAML",
+      "path": "Concept/SP, IdP, SAML.md"
     },
     {
       "basename": "Drawing 2026-01-17 18.17.07.excalidraw",
       "path": "Excalidraw/Drawing 2026-01-17 18.17.07.excalidraw.md"
     },
     {
-      "basename": "Case Study – AppSec_DevSecOps",
-      "path": "Case Study – AppSec_DevSecOps.md"
+      "basename": "Vocab",
+      "path": "English/Vocab.md"
     },
     {
-      "basename": "CNI",
-      "path": "K8S/Components/CNI.md"
+      "basename": "Experience",
+      "path": "Experience.md"
     },
     {
-      "basename": "Theory",
-      "path": "Linux/Iptable/Theory.md"
+      "basename": "Nam du",
+      "path": "Nam du.md"
     },
     {
-      "basename": "Kubelet",
-      "path": "K8S/Components/Kubelet.md"
+      "basename": "Recording 20260611145719",
+      "path": "Attachments/Recording 20260611145719.m4a"
+    },
+    {
+      "basename": "OpenSSL",
+      "path": "OpenSSL.md"
+    },
+    {
+      "basename": "Note",
+      "path": "Note.md"
+    },
+    {
+      "basename": "Cluster Setting up",
+      "path": "K8S/Cluster Setting up.md"
+    },
+    {
+      "basename": "IMG-SP, IdP, SAML",
+      "path": "Attachments/Concept/SP, IdP, SAML/IMG-SP, IdP, SAML.png"
+    },
+    {
+      "basename": "SSO MFA",
+      "path": "Laidon/Jenkins/SSO MFA.md"
+    },
+    {
+      "basename": "Bridge - Overlay",
+      "path": "K8S/Network/Bridge - Overlay.md"
+    },
+    {
+      "basename": "Blog",
+      "path": "K8S/Blog.md"
     },
     {
       "basename": "Network",
-      "path": "Linux/Network.md"
+      "path": "K8S/Network/Network.md"
     },
     {
-      "basename": "Components",
-      "path": "K8S/Components/Components.md"
+      "basename": "IMG-Nam du",
+      "path": "Attachments/Nam du/IMG-Nam du.png"
+    },
+    {
+      "basename": "Release-Migrate",
+      "path": "Laidon/Procedure/Release-Migrate.md"
+    },
+    {
+      "basename": "Note",
+      "path": "Laidon/Note.md"
+    },
+    {
+      "basename": "IMG-Note-77",
+      "path": "Attachments/Laidon/Note/IMG-Note-77.png"
     },
     {
       "basename": "K8s",
       "path": "K8S/K8s.md"
     },
     {
-      "basename": "NIC",
-      "path": "VirtualBox/NIC.md"
+      "basename": "Error",
+      "path": "K8S/Error.md"
     },
     {
-      "basename": "VERR_NAT_REDIR_SETUP",
-      "path": "VirtualBox/VERR_NAT_REDIR_SETUP.md"
+      "basename": "Kubelet",
+      "path": "K8S/Components/Kubelet.md"
     },
     {
-      "basename": "Roadmap",
-      "path": "K8S/Roadmap.md"
+      "basename": "Components",
+      "path": "K8S/Components/Components.md"
     },
     {
-      "basename": "VTC",
-      "path": "VTC.md"
+      "basename": "CNI",
+      "path": "K8S/Components/CNI.md"
+    },
+    {
+      "basename": "Note",
+      "path": "K8S/Note.md"
+    },
+    {
+      "basename": "CLoud Logging",
+      "path": "Laidon/Procedure/CLoud Logging.md"
+    },
+    {
+      "basename": "Files & Vars",
+      "path": "Laidon/CI config/Files & Vars.md"
+    },
+    {
+      "basename": "XSUAA",
+      "path": "Laidon/CF/XSUAA.md"
+    },
+    {
+      "basename": "SAP BTP Roles Overview",
+      "path": "Laidon/CF/SAP BTP Roles Overview.md"
+    },
+    {
+      "basename": "Overview",
+      "path": "Laidon/CF/Overview.md"
+    },
+    {
+      "basename": "Connectivity",
+      "path": "Laidon/CF/Connectivity.md"
+    },
+    {
+      "basename": "Srv",
+      "path": "Laidon/CI config/Srv.md"
+    },
+    {
+      "basename": "Flow",
+      "path": "Laidon/CI config/Flow.md"
+    },
+    {
+      "basename": "NOTE",
+      "path": "Laidon/Procedure/NOTE.md"
+    },
+    {
+      "basename": "SQL HANA",
+      "path": "Laidon/Procedure/SQL HANA.md"
+    },
+    {
+      "basename": "Note",
+      "path": "Laidon/GIT/Note.md"
+    },
+    {
+      "basename": "OT issue F4",
+      "path": "Laidon/Procedure/OT issue F4.md"
     }
   ],
   "omittedPaths": [],

@@ -1,0 +1,47 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": "#4d91a8",
+    "recentlyUsedIcons": [
+      "LiListTodo",
+      "LiPaintbrush",
+      "LiExcalidrawIcon",
+      "📃",
+      "🐧"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "K8S": "☸",
+  "Start over.md": "LiFile",
+  "Docker": "LiContainer",
+  "Gitlab": "LiGitlab",
+  "Attachments": "LiFileStack",
+  "Laidon": "🏢",
+  "Linux": "🐧",
+  "Concept": "📃",
+  "Excalidraw": "LiPaintbrush",
+  "English/Vocab.md": "LiListTodo"
+}
