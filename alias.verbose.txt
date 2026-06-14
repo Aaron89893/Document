@@ -425,16 +425,6 @@ _nowAddSecond() {
   local result=$(date -d "+${seconds} seconds" +%s)
   echo $result
 }
-if [ ! -d /trash ]; then
-   echo "🔥🔸🔸🔸🔸🔸🔸🔸🔸 Create /trash 🔸🔸🔸🔸🔸🔸🔸🔸🔥"
-   mkdir /trash 
-fi
-#_rm() {
- # local target="$1"
-#  echo "${reverse}move to /trash${reset}"
- # mv "$target" /trash/
-#}
-#alias rmf='rm -r'
 
 
 #* go
