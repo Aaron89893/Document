@@ -49,6 +49,16 @@ echo 'alias k=kubectl' >> ~/.bashrc
 echo 'complete -o default -F __start_kubectl k' >> ~/.bashrc
 
 # -----------------------------
+# KUBECOLOR
+# -----------------------------
+echo "==> Installing kubecolor..."
+wget https://github.com/kubecolor/kubecolor/releases/download/v0.6.0/kubecolor_0.6.0_linux_amd64.tar.gz
+tar -xvzf kubecolor_0.6.0_linux_amd64.tar.gz kubecolor
+sudo mv kubecolor /usr/local/bin/
+sudo chmod +x /usr/local/bin/kubecolor
+rm -f kubecolor_0.6.0_linux_amd64.tar.gz
+
+# -----------------------------
 # HELM
 # -----------------------------
 echo "==> Installing Helm..."
@@ -100,6 +110,7 @@ if [ ! -d "$ZSH_CUSTOM/themes/powerlevel10k" ]; then
   git clone --depth=1 https://github.com/romkatv/powerlevel10k.git \
   "$ZSH_CUSTOM/themes/powerlevel10k"
 fi
+
 
 # plugins
 for repo in \
@@ -214,11 +225,47 @@ sudo apt update -y
 sudo apt install -y terraform
 
 echo "==> Verifying installations..."
+echo "--------------------------------------"
+echo "Git:"
+git --version
+echo "--------------------------------------"
+echo "Zsh:"
+zsh --version
+echo "--------------------------------------"
+echo "Docker:"
+docker --version
+echo "--------------------------------------"
+echo "Kubectl:"
+kubectl version --client
+echo "--------------------------------------"
+echo "Helm:"
+helm version
+echo "--------------------------------------"
+echo "Minikube:"
+minikube version
+echo "--------------------------------------"
+echo "Kubecolor:"
+kubecolor version
+echo "--------------------------------------"
+echo "Ansible:"
 ansible --version
+echo "--------------------------------------"
+echo "Terraform:"
 terraform --version
+echo "--------------------------------------"
 
 echo "==> DONE"
 echo "⚠️ IMPORTANT: run 'newgrp docker' OR reboot"
 echo "👉 Then run: zsh && p10k configure"
 
 p10k configure
+
+# configure p10k right prompt elements if .p10k.zsh exists
+echo "Update $HOME/.p10k.zsh with following value"
+echo "typeset -g POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=("
+echo "  memory_usage" 
+echo "  disk_usage"
+echo "  load"
+echo ")"
+
+
