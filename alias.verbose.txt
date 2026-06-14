@@ -234,7 +234,7 @@ alias kzd="echo -e '${reverse}kustomize build .  | kubectl delete -f -${reset}\n
 
 #@ minikube
 alias m="echo -e '${reverse}minikube${reset}\n'; minikube"
-alias mst="echo -e '${reverse}minikube start${reset}\n'; minikube start"
+alias mst="echo -e '${reverse}minikube start --cpus=8 --memory=8192${reset}\n'; minikube start --cpus=8 --memory=8192"
 alias msp="echo -e '${reverse}minikube stop${reset}\n'; minikube stop"
 alias md="echo -e '${reverse}minikube dashboard${reset}\n'; minikube dashboard"
 alias mal="echo -e '${reverse}minikube addons list${reset}\n'; minikube addons list"
