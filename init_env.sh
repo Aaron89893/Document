@@ -186,8 +186,6 @@ grep -q "skip_global_compinit" ~/.zshenv || echo "skip_global_compinit=1" >> ~/.
 # -----------------------------
 echo "==> Configuring vim..."
 cat <<'EOF' >> ~/.vimrc
-
-# --- vim YAML config ---
 set expandtab
 set tabstop=2
 set shiftwidth=2
