@@ -45,11 +45,6 @@ curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stabl
 chmod +x kubectl
 sudo mv kubectl /usr/local/bin/
 
-# completion
-echo 'source <(kubectl completion bash)' >> ~/.bashrc
-echo 'alias k=kubectl' >> ~/.bashrc
-echo 'complete -o default -F __start_kubectl k' >> ~/.bashrc
-
 # -----------------------------
 # KUBECOLOR
 # -----------------------------
@@ -118,7 +113,6 @@ fi
 # plugins
 for repo in \
   https://github.com/zsh-users/zsh-autosuggestions \
-  https://github.com/zsh-users/zsh-syntax-highlighting \
   https://github.com/marlonrichert/zsh-autocomplete
 do
   name=$(basename "$repo")
@@ -134,55 +128,24 @@ ZSHRC="$HOME/.zshrc"
 
 grep -q "powerlevel10k" "$ZSHRC" || echo 'ZSH_THEME="powerlevel10k/powerlevel10k"' >> "$ZSHRC"
 
-grep -q "POWERLEVEL9K_INSTANT_PROMPT" "$ZSHRC" || \
-echo 'typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet' >> "$ZSHRC"
-
-
 grep -q "alias.verbose" "$ZSHRC" || \
 echo 'source /usr/share/alias.verbose' >> "$ZSHRC"
-
-# Clean up old bash-specific kubectl completion in .zshrc if present
-if [ -f "$ZSHRC" ]; then
-  sed -i '/kubectl completion bash/d' "$ZSHRC"
-  sed -i '/complete -o default -F __start_kubectl k/d' "$ZSHRC"
-fi
 
 grep -q "kubectl completion zsh" "$ZSHRC" || cat <<'EOF' >> "$ZSHRC"
 
 # --- kubectl autocomplete ---
+autoload -Uz compinit
+compinit
 source <(kubectl completion zsh)
 alias k=kubectl
 compdef _kubectl k
 EOF
 
-grep -q "plugins=" "$ZSHRC" && \
-sed -i 's/^plugins=.*/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/' "$ZSHRC" || \
-echo 'plugins=(git zsh-autosuggestions zsh-syntax-highlighting)' >> "$ZSHRC"
-
-grep -q "zsh-syntax-highlighting.zsh" "$ZSHRC" || \
-echo 'source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> "$ZSHRC"
-
-grep -q "zsh-autosuggestions.zsh" "$ZSHRC" || \
+echo 'plugins=(git zsh-autosuggestions zsh-autocomplete)' >> "$ZSHRC"
 echo 'source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh' >> "$ZSHRC"
-
-grep -q "powerlevel10k.zsh-theme" "$ZSHRC" || \
+echo 'source ~/.oh-my-zsh/custom/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh' >> "$ZSHRC"
 echo 'source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme' >> "$ZSHRC"
-
-# remove compinit if exists (required by zsh-autocomplete)
-if [ -f "$ZSHRC" ]; then
-  sed -i '/compinit/d' "$ZSHRC" || true
-fi
-
-grep -q "zsh-autocomplete.plugin.zsh" "$ZSHRC" || cat <<'EOF' >> "$ZSHRC"
-
-# --- zsh-autocomplete (marlonrichert) ---
-source ~/.oh-my-zsh/custom/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-EOF
-
-# Disable global compinit in Ubuntu (recommended by author of zsh-autocomplete)
-touch ~/.zshenv
-grep -q "skip_global_compinit" ~/.zshenv || echo "skip_global_compinit=1" >> ~/.zshenv
-
+echo 'typeset -g POWERLEVEL9K_INSTANT_PROMPT=off' >> "$ZSHRC"
 
 # -----------------------------
 # VIM CONFIG
@@ -200,19 +163,13 @@ EOF
 # ANSIBLE
 # -----------------------------
 echo "==> Installing Ansible..."
-
-sudo apt update -y
-sudo apt install -y software-properties-common
-
 sudo add-apt-repository --yes --update ppa:ansible/ansible
 sudo apt install -y ansible
 
 # -----------------------------
 # TERRAFORM
 # -----------------------------
-echo "==> Installing Terraform..."
-
-sudo apt install -y gnupg software-properties-common curl
+echo "==> Installing Terraform & etcd-client..."
 
 curl -fsSL https://apt.releases.hashicorp.com/gpg | \
 sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
@@ -223,10 +180,7 @@ https://apt.releases.hashicorp.com $(lsb_release -cs) main" | \
 sudo tee /etc/apt/sources.list.d/hashicorp.list
 
 sudo apt update -y
-sudo apt install -y terraform
-
-sudo apt update
-sudo apt install etcd-client
+sudo apt install -y terraform etcd-client
 
 echo "==> Verifying installations..."
 echo "--------------------------------------"
@@ -262,7 +216,7 @@ etcdctl version
 echo "--------------------------------------"
 
 echo "==> DONE"
-echo "⚠️ IMPORTANT: run 'newgrp docker' OR reboot"
+echo "⚠️ IMPORTANT: run 'exec zsh'"
 echo "👉 Then run: zsh && p10k configure"
 
 # configure p10k right prompt elements if .p10k.zsh exists
@@ -274,4 +228,7 @@ echo "  load"
 echo ")"
 
 sudo timedatectl set-timezone Asia/Ho_Chi_Minh
+chsh -s $(which zsh)
+exec zsh
 p10k configure
+#autoload -Uz zsh-newuser-install && zsh-newuser-install -f
