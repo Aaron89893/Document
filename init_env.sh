@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -uo pipefail
 
 # -----------------------------
 # SUDOERS CONFIG
@@ -274,6 +274,4 @@ echo "  load"
 echo ")"
 
 sudo timedatectl set-timezone Asia/Ho_Chi_Minh
-chsh -s $(which zsh)
-exec zsh
 p10k configure
