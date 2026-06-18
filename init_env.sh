@@ -225,6 +225,9 @@ sudo tee /etc/apt/sources.list.d/hashicorp.list
 sudo apt update -y
 sudo apt install -y terraform
 
+sudo apt update
+sudo apt install etcd-client
+
 echo "==> Verifying installations..."
 echo "--------------------------------------"
 echo "Git:"
@@ -254,12 +257,13 @@ echo "--------------------------------------"
 echo "Terraform:"
 terraform --version
 echo "--------------------------------------"
+echo "etcdctl:"
+etcdctl version
+echo "--------------------------------------"
 
 echo "==> DONE"
 echo "⚠️ IMPORTANT: run 'newgrp docker' OR reboot"
 echo "👉 Then run: zsh && p10k configure"
-
-p10k configure
 
 # configure p10k right prompt elements if .p10k.zsh exists
 echo "Update $HOME/.p10k.zsh with following value"
@@ -269,4 +273,5 @@ echo "  disk_usage"
 echo "  load"
 echo ")"
 
-
+sudo timedatectl set-timezone Asia/Ho_Chi_Minh
+p10k configure
