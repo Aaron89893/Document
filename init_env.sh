@@ -9,7 +9,7 @@ echo "==> Configuring passwordless sudo for '$CURRENT_USER'..."
 echo "$CURRENT_USER ALL=(ALL) NOPASSWD:ALL" | sudo tee "/etc/sudoers.d/$CURRENT_USER" > /dev/null
 sudo chmod 0440 "/etc/sudoers.d/$CURRENT_USER"
 sudo usermod -aG sudo "$USER"
-newgrp sudo
+#newgrp sudo
 
 echo "==> Updating system..."
 sudo apt update -y
