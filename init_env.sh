@@ -274,4 +274,6 @@ echo "  load"
 echo ")"
 
 sudo timedatectl set-timezone Asia/Ho_Chi_Minh
+chsh -s $(which zsh)
+exec zsh
 p10k configure
