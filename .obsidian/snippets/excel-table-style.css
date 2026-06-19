@@ -1,0 +1,51 @@
+/* Ensure the overall note has a light theme base */
+.theme-light {
+  --background-primary: #FDFBF7; /* Your choice of light background */
+}
+
+/* Base table adjustments for Obsidian Live Preview & Reading view */
+.theme-light .markdown-rendered table,
+.theme-light .cm-embed-block:has(table) table {
+  border-collapse: collapse !important;
+  width: 100%;
+  border: 1px solid #D9D9D9 !important;
+}
+
+/* 1. Header Styling: Light Blue background + Dark Text */
+.theme-light .markdown-rendered table th,
+.theme-light .cm-embed-block:has(table) th {
+  background-color: #5B9BD5 !important; /* The precise Excel Blue */
+  color: #1A1A1A !important;           /* Dark text as seen in your image */
+  font-weight: 600 !important;
+  padding: 8px 12px !important;
+  border: 1px solid #D9D9D9 !important;
+}
+
+/* 2. Alternating Row Colors (Banded Rows) */
+/* Even rows: Very Light Gray */
+.theme-light .markdown-rendered table tr:nth-child(even),
+.theme-light .cm-embed-block:has(table) tr:nth-child(even) {
+  background-color: #F2F2F2 !important;
+}
+
+/* Odd rows: White / Primary background */
+.theme-light .markdown-rendered table tr:nth-child(odd),
+.theme-light .cm-embed-block:has(table) tr:nth-child(odd) {
+  background-color: #FFFFFF !important;
+}
+
+/* 3. Table Cell Borders and Alignment */
+.theme-light .markdown-rendered table td,
+.theme-light .cm-embed-block:has(table) td {
+  border: 1px solid #D9D9D9 !important; /* Clean grid lines */
+  padding: 8px 12px !important;
+  color: #2D2D2D !important;
+  vertical-align: middle !important;
+}
+
+/* Keep inline code blocks inside cells clean */
+.theme-light table code,
+.theme-light table pre {
+  background-color: #F4F5F7 !important;
+  border: 1px solid #E2E8F0 !important;
+}
