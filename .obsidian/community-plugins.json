@@ -9,10 +9,14 @@
   "obsidian-image-toolkit",
   "obsidian-git",
   "obsidian-quiet-outline",
-  "workspaces-plus",
   "attachment-management",
   "find-unlinked-files",
   "file-cleaner-redux",
   "background-image",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "workspace-plus-plus",
+  "obsidian-style-settings",
+  "copy-inline-code",
+  "obsidian-auto-link-title",
+  "obsidian-editor-shortcuts"
 ]

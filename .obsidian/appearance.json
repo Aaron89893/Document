@@ -1,8 +1,11 @@
 {
   "cssTheme": "Things",
   "theme": "moonstone",
-  "baseFontSize": 18,
+  "baseFontSize": 16,
   "nativeMenus": true,
   "baseFontSizeAction": true,
-  "accentColor": "#4a8cb0"
+  "accentColor": "#4a8cb0",
+  "enabledCssSnippets": [
+    "excel-table-style"
+  ]
 }

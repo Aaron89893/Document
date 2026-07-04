@@ -1,0 +1,942 @@
+/* ============================================================
+   Workspace++ Styles
+   Matches the core Workspace plugin modal design
+   ============================================================ */
+
+/* Save section */
+.wpp-save-container {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.wpp-save-input {
+    flex: 1;
+}
+
+.wpp-filter-container {
+    margin-bottom: 8px;
+}
+
+.wpp-filter-input {
+    width: 100%;
+}
+
+/* Session list */
+.wpp-session-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.wpp-session-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 12px;
+    border-radius: 6px;
+    cursor: grab;
+}
+
+.wpp-session-item:hover {
+    background: var(--background-modifier-hover-dimmed, rgba(var(--mono-rgb-100), 0.03));
+}
+
+.wpp-session-index {
+    font-size: 10px;
+    color: var(--text-faint);
+    min-width: 32px;
+    text-align: center;
+    flex-shrink: 0;
+    margin-right: 8px;
+}
+
+.wpp-session-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.wpp-session-name-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+}
+
+.wpp-session-name {
+    font-weight: 600;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+}
+
+.wpp-active-badge {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+    letter-spacing: 0.5px;
+    line-height: 1;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.wpp-default-label {
+    font-size: var(--font-smallest);
+    color: var(--text-muted);
+}
+
+.wpp-session-modified {
+    font-size: var(--font-smallest);
+    color: var(--text-muted);
+    margin-top: 2px;
+}
+
+.wpp-empty-state {
+    padding: 10px 12px;
+    color: var(--text-muted);
+    font-size: var(--font-ui-small);
+}
+
+.wpp-empty-state-group {
+    text-align: center;
+}
+
+/* Keyboard focus */
+.wpp-session-item.wpp-focused {
+    background: var(--background-modifier-hover);
+}
+
+/* Multi-select */
+.wpp-session-item.wpp-selected {
+    outline: 2px solid var(--interactive-accent);
+    outline-offset: -2px;
+}
+
+.wpp-session-item.wpp-focused.wpp-selected {
+    background: var(--background-modifier-hover);
+    outline: 2px solid var(--interactive-accent);
+    outline-offset: -2px;
+}
+
+/* Bulk actions bar */
+.wpp-bulk-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 6px 12px;
+    margin-bottom: 8px;
+    background: var(--background-secondary);
+    border-radius: 6px;
+}
+
+.wpp-session-item.is-dragging {
+    visibility: hidden;
+}
+
+body.wpp-session-list-dragging,
+body.wpp-session-list-dragging * {
+    cursor: grabbing;
+}
+
+.wpp-drag-clone {
+    opacity: 0.85;
+    box-shadow: var(--shadow-l);
+    background: var(--background-primary);
+    border-radius: 6px;
+}
+
+/* Preserve search overlay row layout when clone is moved to document.body */
+.wpp-drag-clone.wpp-switch-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    max-width: none;
+    padding: 10px 12px;
+}
+
+.wpp-drag-clone .wpp-switch-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-line-clamp: unset;
+    display: block;
+}
+
+.wpp-session-item.wpp-just-moved {
+    background: var(--background-modifier-hover);
+    transition: background 0.6s ease-out;
+}
+
+.wpp-session-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    margin-left: 12px;
+}
+
+.wpp-save-inline-btn {
+    text-align: center;
+}
+
+.wpp-icon-btn {
+    display: flex;
+    align-items: center;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.wpp-icon-btn:hover {
+    background: var(--background-modifier-hover);
+}
+
+.wpp-icon-btn:focus,
+.wpp-icon-btn:focus-visible {
+    background: var(--background-modifier-hover);
+    color: var(--text-muted);
+    outline: 2px solid var(--interactive-accent);
+    outline-offset: 2px;
+    box-shadow: none;
+}
+
+.wpp-icon-btn svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* Confirm / Rename modals */
+.wpp-confirm-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.wpp-confirm-buttons button.wpp-btn-focused,
+.wpp-session-actions .wpp-btn-focused {
+    outline: 2px solid var(--interactive-accent);
+    outline-offset: 2px;
+}
+
+/* Confirm modal hint */
+.wpp-confirm-hint {
+    font-size: var(--font-ui-small);
+    color: var(--text-faint);
+    margin-top: 12px;
+}
+
+.wpp-confirm-hint a {
+    color: var(--text-faint);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.wpp-confirm-hint a:hover {
+    color: var(--text-accent);
+}
+
+.wpp-modal-footer {
+    font-size: 11px;
+    color: var(--text-faint);
+    text-align: center;
+    margin-top: 12px;
+}
+
+.wpp-rename-input {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+/* Status bar */
+.wpp-status-bar {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.wpp-status-bar:hover {
+    background: var(--background-modifier-hover);
+    border-radius: 4px;
+}
+
+.wpp-status-bar.wpp-status-bar-unsaved {
+    color: var(--text-warning);
+    background: rgba(var(--color-orange-rgb), 0.14);
+    border-radius: 4px;
+}
+
+.wpp-status-bar.wpp-status-bar-unsaved:hover {
+    color: var(--text-warning);
+    background: rgba(var(--color-orange-rgb), 0.2);
+}
+
+.wpp-status-icon {
+    display: flex;
+    align-items: center;
+}
+
+.wpp-status-icon svg {
+    width: 14px;
+    height: 14px;
+}
+
+/* Switch overlay (Cmd+Tab style) */
+.wpp-switch-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--modal-background);
+    border: 1px solid var(--modal-border-color);
+    border-radius: var(--modal-radius);
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    z-index: var(--layer-popover);
+    box-shadow: var(--shadow-l);
+    max-width: 80vw;
+}
+
+.wpp-switch-count {
+    align-self: flex-end;
+    font-size: 11px;
+    color: var(--text-faint);
+    margin-bottom: -4px;
+}
+
+.wpp-switch-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    max-width: 100%;
+}
+
+.wpp-switch-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 18px;
+    border-radius: 8px;
+    min-width: 60px;
+    max-width: 180px;
+    text-align: center;
+    color: var(--text-muted);
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.wpp-switch-overlay:not(.wpp-search-overlay) .wpp-switch-item {
+    cursor: pointer;
+}
+
+.wpp-switch-overlay:not(.wpp-search-overlay) .wpp-switch-item:hover {
+    background: var(--background-modifier-hover-dimmed, rgba(var(--mono-rgb-100), 0.03));
+    color: var(--text-normal);
+}
+
+.wpp-switch-overlay:not(.wpp-search-overlay) .wpp-switch-item.is-active:hover {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+}
+
+.wpp-switch-item.is-active {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+}
+
+.wpp-switch-name {
+    font-size: 13px;
+    font-weight: 600;
+    max-width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+}
+
+.wpp-switch-hotkey {
+    font-size: 11px;
+    opacity: 0.5;
+}
+
+.wpp-switch-item.is-active .wpp-switch-hotkey {
+    opacity: 0.7;
+}
+
+.wpp-switch-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    font-size: 11px;
+    color: var(--text-faint);
+}
+
+.wpp-search-overlay {
+    align-items: stretch;
+    cursor: grab;
+    gap: 8px;
+    width: min(370px, 95vw);
+    height: min(400px, 80vh);
+    min-width: min(286px, 90vw);
+    max-width: min(594px, 95vw);
+    overflow: hidden;
+    /* Position bottom-right */
+    top: auto;
+    left: auto;
+    right: 16px;
+    bottom: 40px;
+    transform: none;
+}
+
+.wpp-search-overlay.wpp-dragging {
+    cursor: grabbing;
+}
+
+.wpp-search-overlay .wpp-search-input,
+.wpp-search-overlay .wpp-save-input,
+.wpp-search-overlay .wpp-save-btn,
+.wpp-search-overlay .wpp-switch-item,
+.wpp-search-overlay .wpp-search-close {
+    cursor: default;
+}
+
+.wpp-search-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 4px 0;
+}
+
+.wpp-search-overlay .wpp-switch-count {
+    font-size: var(--font-ui-smaller);
+}
+
+.wpp-search-overlay .wpp-switch-footer {
+    font-size: var(--font-ui-smaller);
+}
+
+.wpp-search-overlay .wpp-save-container {
+    margin-bottom: 0;
+}
+
+.wpp-search-header .wpp-switch-count {
+    align-self: auto;
+    margin-bottom: 0;
+}
+
+.wpp-search-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--text-muted);
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.wpp-search-close:hover {
+    color: var(--text-normal);
+    background: var(--background-modifier-hover);
+}
+
+.wpp-search-close svg {
+    width: var(--icon-s);
+    height: var(--icon-s);
+}
+
+.wpp-search-row {
+    width: 100%;
+}
+
+.wpp-search-input {
+    width: 100%;
+}
+
+.wpp-search-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 4px;
+    width: 100%;
+    max-height: 50vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex: 1;
+    min-height: 0;
+}
+
+/* Corner resize handles */
+.wpp-resize-corner {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    z-index: 1;
+}
+
+.wpp-resize-tl { top: 0; left: 0; cursor: nwse-resize; }
+.wpp-resize-tr { top: 0; right: 0; cursor: nesw-resize; }
+.wpp-resize-bl { bottom: 0; left: 0; cursor: nesw-resize; }
+.wpp-resize-br { bottom: 0; right: 0; cursor: nwse-resize; }
+
+/* Edge resize handles */
+.wpp-resize-edge {
+    position: absolute;
+    z-index: 1;
+}
+.wpp-resize-top    { top: 0; left: 12px; right: 12px; height: 6px; cursor: n-resize; }
+.wpp-resize-bottom { bottom: 0; left: 12px; right: 12px; height: 6px; cursor: s-resize; }
+.wpp-resize-left   { left: 0; top: 12px; bottom: 12px; width: 6px; cursor: w-resize; }
+.wpp-resize-right  { right: 0; top: 12px; bottom: 12px; width: 6px; cursor: e-resize; }
+
+.wpp-search-overlay .wpp-switch-item {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 10px 12px;
+}
+
+.wpp-search-overlay .wpp-switch-name {
+    font-size: var(--font-ui-small);
+    font-weight: var(--font-semibold);
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Quick switcher name row (name + ACTIVE badge) */
+.wpp-qs-name-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+}
+
+/* Remove purple is-active highlight in search overlay */
+.wpp-search-overlay .wpp-switch-item.is-active {
+    background: none;
+    color: var(--text-muted);
+}
+
+/* Hover effect for search overlay items */
+.wpp-search-overlay .wpp-switch-item:hover {
+    background: var(--background-modifier-hover-dimmed, rgba(var(--mono-rgb-100), 0.03));
+}
+
+/* Keyboard navigation: highlight selected item */
+.wpp-search-overlay.wpp-keyboard-nav .wpp-switch-item.wpp-kb-selected,
+.wpp-search-overlay.wpp-keyboard-nav .wpp-switch-item.wpp-kb-selected:hover {
+    background: var(--background-modifier-hover);
+}
+
+/* Keyboard navigation: suppress hover on non-selected items */
+.wpp-search-overlay.wpp-keyboard-nav .wpp-switch-item:hover {
+    background: none;
+}
+
+/* Dragging styles for search overlay */
+.wpp-search-overlay .wpp-switch-item.is-dragging {
+    visibility: hidden;
+}
+
+.wpp-search-overlay .wpp-switch-item.wpp-just-moved {
+    background: var(--background-modifier-hover);
+    transition: background 0.6s ease-out;
+}
+
+/* Quick switcher action icons */
+.wpp-qs-actions {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+    margin-left: 8px;
+}
+
+.wpp-qs-action-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--text-muted);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.wpp-qs-action-btn:hover {
+    background: var(--background-modifier-hover);
+    color: var(--text-normal);
+}
+
+.wpp-qs-action-btn svg {
+    width: var(--icon-xs);
+    height: var(--icon-xs);
+}
+
+/* Quick switcher info column (name + modified time) */
+.wpp-qs-info-col {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    flex: 1;
+    gap: 2px;
+}
+
+/* Quick switcher modified timestamp */
+.wpp-qs-modified {
+    font-size: 10px;
+    color: var(--text-faint);
+}
+
+/* Hide hotkey in search overlay (actions replace it) */
+.wpp-search-overlay .wpp-switch-hotkey {
+    display: none;
+}
+
+.wpp-search-empty {
+    display: none;
+    color: var(--text-muted);
+    font-size: var(--font-ui-small);
+    text-align: center;
+    padding: 6px 0;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Group tabs */
+.wpp-group-tabs {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+    overflow-x: auto;
+    padding: 2px 0;
+    flex-shrink: 0;
+}
+
+.wpp-group-tab {
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: var(--font-ui-smaller);
+    color: var(--text-muted);
+    cursor: pointer;
+    white-space: nowrap;
+    flex-shrink: 0;
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.wpp-group-tab:hover {
+    background: var(--background-modifier-hover-dimmed, rgba(var(--mono-rgb-100), 0.03));
+    color: var(--text-normal);
+}
+
+.wpp-group-tab.is-active {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+}
+
+/* Group tab D&D dragging */
+.wpp-group-tab.is-dragging {
+    visibility: hidden;
+}
+
+/* Group tab drop target (during drag) */
+.wpp-group-tab.wpp-group-drop-target {
+    outline: 2px solid var(--interactive-accent);
+    outline-offset: -2px;
+    background: var(--background-modifier-hover);
+}
+
+/* Modal group tabs row */
+.wpp-group-tabs-row {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 8px;
+    overflow-x: auto;
+    padding: 2px 0;
+}
+
+/* Group add button */
+.wpp-group-add-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: var(--text-muted);
+    flex-shrink: 0;
+}
+
+.wpp-group-add-btn:hover {
+    background: var(--background-modifier-hover);
+    color: var(--text-normal);
+}
+
+.wpp-group-add-btn svg {
+    width: var(--icon-xs);
+    height: var(--icon-xs);
+}
+
+/* Status bar group indicator */
+.wpp-status-group {
+    color: inherit;
+    font-size: var(--font-ui-smaller);
+}
+
+.wpp-status-separator {
+    color: inherit;
+    font-size: var(--font-ui-smaller);
+}
+
+/* Settings: tab bar */
+.wpp-settings-tab-bar {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--background-modifier-border);
+    padding-bottom: 8px;
+}
+
+.wpp-settings-tab {
+    padding: 6px 16px;
+    border: none;
+    border-radius: 6px;
+    background: transparent;
+    color: var(--text-muted);
+    font-size: var(--font-ui-small);
+    cursor: pointer;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.wpp-settings-tab:hover {
+    background: var(--background-modifier-hover);
+    color: var(--text-normal);
+}
+
+.wpp-settings-tab.is-active {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+}
+
+/* Settings: nested sub-toggles below parent */
+.wpp-has-nested {
+    flex-wrap: wrap;
+}
+
+.wpp-nested-settings {
+    width: 100%;
+    padding-left: 32px;
+    margin-top: 4px;
+}
+
+.wpp-nested-settings .setting-item {
+    border-top: none;
+    padding: 6px 0;
+}
+
+.wpp-nested-settings .setting-item-name {
+    font-size: var(--font-ui-small);
+    color: var(--text-muted);
+}
+
+.wpp-settings-section-title {
+    margin: 20px 0 8px;
+    font-size: var(--font-ui-medium);
+}
+
+.wpp-settings-section-title:first-child {
+    margin-top: 0;
+}
+
+.wpp-advanced-details {
+    margin: 18px 0 10px;
+    border-top: 1px solid var(--background-modifier-border);
+    padding-top: 12px;
+}
+
+.wpp-advanced-summary {
+    cursor: pointer;
+    color: var(--text-normal);
+    font-size: var(--font-ui-large, 1.05rem);
+    font-weight: 700;
+}
+
+.wpp-advanced-body {
+    margin-top: 10px;
+}
+
+.wpp-advanced-subsection-title {
+    margin-top: 16px;
+}
+
+.wpp-advanced-subsection-title:first-child {
+    margin-top: 0;
+}
+
+.wpp-dev-details {
+    margin-top: 18px;
+    border-top: 1px solid var(--background-modifier-border);
+    padding-top: 12px;
+}
+
+.wpp-dev-summary {
+    cursor: pointer;
+    color: var(--text-normal);
+    font-size: var(--font-ui-large, 1.05rem);
+    font-weight: 700;
+}
+
+.wpp-dev-body {
+    margin-top: 10px;
+}
+
+.wpp-dev-card {
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 10px;
+    padding: 12px;
+    background: var(--background-secondary);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.wpp-dev-card-title {
+    font-size: var(--font-ui-medium);
+    font-weight: 600;
+    color: var(--text-normal);
+}
+
+.wpp-dev-card-desc {
+    font-size: var(--font-ui-small);
+    color: var(--text-muted);
+    margin-bottom: 2px;
+}
+
+.wpp-dev-card-row {
+    display: grid;
+    grid-template-columns: 170px minmax(0, 1fr);
+    gap: 10px;
+    align-items: start;
+    padding-top: 6px;
+    border-top: 1px solid var(--background-modifier-border-hover);
+}
+
+.wpp-dev-card-label {
+    font-size: var(--font-ui-small);
+    color: var(--text-faint);
+}
+
+.wpp-dev-card-value {
+    font-size: var(--font-ui-small);
+    color: var(--text-muted);
+    word-break: break-all;
+    line-height: 1.4;
+}
+
+.wpp-dev-card-value-code {
+    font-family: var(--font-monospace);
+}
+
+@media (max-width: 720px) {
+    .wpp-dev-card-row {
+        grid-template-columns: 1fr;
+        gap: 4px;
+    }
+}
+
+/* ── Version History Modal ── */
+
+.wpp-history-modal .wpp-history-list {
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.wpp-history-date-label {
+    font-size: var(--font-ui-small);
+    color: var(--text-muted);
+    margin: 16px 0 4px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.wpp-history-date-label:first-child {
+    margin-top: 0;
+}
+
+.wpp-history-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.wpp-history-item:hover {
+    background: var(--background-modifier-hover);
+}
+
+.wpp-history-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.wpp-history-time {
+    font-weight: var(--font-semibold);
+    font-size: var(--font-ui-small);
+}
+
+.wpp-history-summary {
+    font-size: var(--font-ui-smaller);
+    color: var(--text-muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.wpp-history-restore-btn {
+    flex-shrink: 0;
+    margin-left: 8px;
+}
+
+.wpp-history-empty {
+    color: var(--text-muted);
+    text-align: center;
+    padding: 24px 0;
+}

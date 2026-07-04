@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": "#4d91a8",
     "recentlyUsedIcons": [
+      "LiListCheck",
       "LiListTodo",
       "LiPaintbrush",
       "LiExcalidrawIcon",
-      "📃",
-      "🐧"
+      "📃"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -43,5 +43,6 @@
   "Linux": "🐧",
   "Concept": "📃",
   "Excalidraw": "LiPaintbrush",
-  "English/Vocab.md": "LiListTodo"
+  "English/Vocab.md": "LiListTodo",
+  "K8S/CKA/Exercise": "LiListTodo"
 }

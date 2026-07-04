@@ -1,16 +1,120 @@
 {
   "recentFiles": [
     {
+      "basename": "Network",
+      "path": "Linux/Network.md"
+    },
+    {
+      "basename": "Upgrade",
+      "path": "K8S/CKA/Upgrade.md"
+    },
+    {
+      "basename": "Flows & Diagram",
+      "path": "K8S/Flows & Diagram.md"
+    },
+    {
+      "basename": "Kubelet",
+      "path": "K8S/Components/Kubelet.md"
+    },
+    {
+      "basename": "BGP-IPIP-VXLAN",
+      "path": "K8S/Network/BGP-IPIP-VXLAN.md"
+    },
+    {
+      "basename": "Node Management",
+      "path": "K8S/CKA/Node Management.md"
+    },
+    {
+      "basename": "Note",
+      "path": "K8S/Note.md"
+    },
+    {
+      "basename": "Schedule",
+      "path": "K8S/CKA/Schedule.md"
+    },
+    {
+      "basename": "Cheat Sheet",
+      "path": "K8S/Cheat Sheet.md"
+    },
+    {
+      "basename": "Rolling update",
+      "path": "K8S/CKA/Rolling update.md"
+    },
+    {
+      "basename": "StatefulSet",
+      "path": "K8S/CKA/StatefulSet.md"
+    },
+    {
+      "basename": "Storage",
+      "path": "K8S/CKA/Storage.md"
+    },
+    {
       "basename": "Start over",
       "path": "Start over.md"
+    },
+    {
+      "basename": "Vocab",
+      "path": "English/Vocab.md"
+    },
+    {
+      "basename": "ETCD",
+      "path": "K8S/CKA/ETCD.md"
+    },
+    {
+      "basename": "TIPs",
+      "path": "TIPs.md"
+    },
+    {
+      "basename": "NetworkPolicy",
+      "path": "K8S/CKA/NetworkPolicy.md"
+    },
+    {
+      "basename": "RBAC",
+      "path": "K8S/CKA/RBAC.md"
+    },
+    {
+      "basename": "E-CheckList",
+      "path": "K8S/CKA/Exercise/E-CheckList.md"
     },
     {
       "basename": "Architecture",
       "path": "K8S/Architecture.md"
     },
     {
+      "basename": "proxy - port-forward - tunnel",
+      "path": "K8S/Network/proxy - port-forward - tunnel.md"
+    },
+    {
+      "basename": "Network",
+      "path": "K8S/Network/Network.md"
+    },
+    {
+      "basename": "Connect minikube",
+      "path": "K8S/Guideline/Connect minikube.md"
+    },
+    {
       "basename": "Cloud Connector",
       "path": "Laidon/Procedure/Cloud Connector.md"
+    },
+    {
+      "basename": "Cluster Setting up",
+      "path": "K8S/Cluster Setting up.md"
+    },
+    {
+      "basename": "Health",
+      "path": "Health.md"
+    },
+    {
+      "basename": "Personal Info",
+      "path": "Personal Info.md"
+    },
+    {
+      "basename": "OpenSSL",
+      "path": "Linux/OpenSSL.md"
+    },
+    {
+      "basename": "Keepalived",
+      "path": "K8S/Network/Keepalived.md"
     },
     {
       "basename": "Deployment order",
@@ -37,32 +141,8 @@
       "path": "Excalidraw/Drawing 2026-01-17 18.17.07.excalidraw.md"
     },
     {
-      "basename": "Vocab",
-      "path": "English/Vocab.md"
-    },
-    {
-      "basename": "Experience",
-      "path": "Experience.md"
-    },
-    {
-      "basename": "Nam du",
-      "path": "Nam du.md"
-    },
-    {
       "basename": "Recording 20260611145719",
       "path": "Attachments/Recording 20260611145719.m4a"
-    },
-    {
-      "basename": "OpenSSL",
-      "path": "OpenSSL.md"
-    },
-    {
-      "basename": "Note",
-      "path": "Note.md"
-    },
-    {
-      "basename": "Cluster Setting up",
-      "path": "K8S/Cluster Setting up.md"
     },
     {
       "basename": "IMG-SP, IdP, SAML",
@@ -73,20 +153,8 @@
       "path": "Laidon/Jenkins/SSO MFA.md"
     },
     {
-      "basename": "Bridge - Overlay",
-      "path": "K8S/Network/Bridge - Overlay.md"
-    },
-    {
       "basename": "Blog",
       "path": "K8S/Blog.md"
-    },
-    {
-      "basename": "Network",
-      "path": "K8S/Network/Network.md"
-    },
-    {
-      "basename": "IMG-Nam du",
-      "path": "Attachments/Nam du/IMG-Nam du.png"
     },
     {
       "basename": "Release-Migrate",
@@ -109,20 +177,8 @@
       "path": "K8S/Error.md"
     },
     {
-      "basename": "Kubelet",
-      "path": "K8S/Components/Kubelet.md"
-    },
-    {
-      "basename": "Components",
-      "path": "K8S/Components/Components.md"
-    },
-    {
       "basename": "CNI",
       "path": "K8S/Components/CNI.md"
-    },
-    {
-      "basename": "Note",
-      "path": "K8S/Note.md"
     },
     {
       "basename": "CLoud Logging",
@@ -143,34 +199,6 @@
     {
       "basename": "Overview",
       "path": "Laidon/CF/Overview.md"
-    },
-    {
-      "basename": "Connectivity",
-      "path": "Laidon/CF/Connectivity.md"
-    },
-    {
-      "basename": "Srv",
-      "path": "Laidon/CI config/Srv.md"
-    },
-    {
-      "basename": "Flow",
-      "path": "Laidon/CI config/Flow.md"
-    },
-    {
-      "basename": "NOTE",
-      "path": "Laidon/Procedure/NOTE.md"
-    },
-    {
-      "basename": "SQL HANA",
-      "path": "Laidon/Procedure/SQL HANA.md"
-    },
-    {
-      "basename": "Note",
-      "path": "Laidon/GIT/Note.md"
-    },
-    {
-      "basename": "OT issue F4",
-      "path": "Laidon/Procedure/OT issue F4.md"
     }
   ],
   "omittedPaths": [],

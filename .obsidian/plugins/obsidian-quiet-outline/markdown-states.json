@@ -1,36 +1,31 @@
 {
   "K8S/Cluster Setting up.md": {
-    "scroll": 247.27158404463856,
+    "scroll": 27.26317089417272,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 101
+        "line": 4,
+        "ch": 35
       },
       "to": {
-        "line": 5,
-        "ch": 101
+        "line": 4,
+        "ch": 32
       }
     },
     "expandedKeys": [
-      "item-2-7",
       "item-3-1",
-      "item-1-0",
-      "item-3-8",
-      "item-3-10",
-      "item-3-13",
-      "item-5-15"
+      "item-1-0"
     ]
   },
   "K8S/Note.md": {
-    "scroll": 0,
+    "scroll": 106.30860191336454,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 66
+        "line": 113,
+        "ch": 40
       },
       "to": {
-        "line": 7,
-        "ch": 66
+        "line": 112,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -106,7 +101,7 @@
     "expandedKeys": []
   },
   "Experience.md": {
-    "scroll": 43.96898373053266,
+    "scroll": 42.94248050188751,
     "cursor": {
       "from": {
         "line": 98,
@@ -122,7 +117,7 @@
     ]
   },
   "Interview.md": {
-    "scroll": 0,
+    "scroll": 37.56754556182683,
     "cursor": {
       "from": {
         "line": 50,
@@ -246,15 +241,15 @@
     ]
   },
   "Linux/Network.md": {
-    "scroll": 0,
+    "scroll": 9.738216107583304,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 24,
+        "ch": 35
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 24,
+        "ch": 35
       }
     },
     "expandedKeys": []
@@ -277,12 +272,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 72
+        "line": 0,
+        "ch": 4
       },
       "to": {
-        "line": 7,
-        "ch": 72
+        "line": 0,
+        "ch": 4
       }
     },
     "expandedKeys": []
@@ -316,15 +311,15 @@
     "expandedKeys": []
   },
   "K8S/Components/Kubelet.md": {
-    "scroll": 0,
+    "scroll": 19.709775700931182,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 29,
+        "ch": 67
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 29,
+        "ch": 67
       }
     },
     "expandedKeys": []
@@ -333,11 +328,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 7,
+        "line": 12,
         "ch": 0
       }
     },
@@ -572,15 +567,18 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 6,
+        "ch": 15
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 6,
+        "ch": 15
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-6"
+    ]
   },
   "K8S/Network/Bridge - Overlay.md": {
     "scroll": 0,
@@ -671,19 +669,20 @@
     ]
   },
   "K8S/Network/Network.md": {
-    "scroll": 53.39746583896781,
+    "scroll": 6.595712649621707,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 52
+        "line": 16,
+        "ch": 16
       },
       "to": {
-        "line": 3,
-        "ch": 52
+        "line": 16,
+        "ch": 16
       }
     },
     "expandedKeys": [
-      "item-2-0"
+      "item-2-0",
+      "item-3-3"
     ]
   },
   "Laidon/CI config/Note.md": {
@@ -1233,15 +1232,15 @@
     ]
   },
   "Health.md": {
-    "scroll": 0,
+    "scroll": 38.846467234742015,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 32
+        "line": 53,
+        "ch": 35
       },
       "to": {
-        "line": 10,
-        "ch": 32
+        "line": 53,
+        "ch": 35
       }
     },
     "expandedKeys": [
@@ -1299,15 +1298,15 @@
     ]
   },
   "conflict-files-obsidian-git.md": {
-    "scroll": 0,
+    "scroll": 6.675767681309444,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 10
+        "line": 0,
+        "ch": 11
       },
       "to": {
-        "line": 5,
-        "ch": 10
+        "line": 0,
+        "ch": 11
       }
     },
     "expandedKeys": []
@@ -1332,14 +1331,14 @@
     ]
   },
   "English/Vocab.md": {
-    "scroll": 0,
+    "scroll": 157.9185080724026,
     "cursor": {
       "from": {
-        "line": 4,
+        "line": 172,
         "ch": 0
       },
       "to": {
-        "line": 4,
+        "line": 172,
         "ch": 0
       }
     },
@@ -1427,7 +1426,7 @@
     ]
   },
   "Laidon/Procedure/Cloud Connector.md": {
-    "scroll": 71.26956264357989,
+    "scroll": 71.84450082230296,
     "cursor": {
       "from": {
         "line": 22,
@@ -1446,12 +1445,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 20,
-        "ch": 31
+        "line": 16,
+        "ch": 35
       },
       "to": {
-        "line": 20,
-        "ch": 31
+        "line": 16,
+        "ch": 35
       }
     },
     "expandedKeys": []
@@ -2048,14 +2047,14 @@
     "expandedKeys": []
   },
   "Start over.md": {
-    "scroll": 44.96538930066662,
+    "scroll": 46.5616565578263,
     "cursor": {
       "from": {
-        "line": 53,
+        "line": 74,
         "ch": 0
       },
       "to": {
-        "line": 53,
+        "line": 74,
         "ch": 0
       }
     },
@@ -2081,14 +2080,14 @@
     ]
   },
   "K8S/Architecture.md": {
-    "scroll": 8.503805347587589,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 0
+        "line": 8,
+        "ch": 36
       },
       "to": {
-        "line": 6,
+        "line": 1,
         "ch": 0
       }
     },
@@ -2191,5 +2190,428 @@
       }
     },
     "expandedKeys": []
+  },
+  "CKA-Certified-Kubernetes-Administrator-main/CKA-Certified-Kubernetes-Administrator-main/cheatsheet/cka-cheatsheet.md": {
+    "scroll": 14.125690581881509,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Keepalived.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 47
+      },
+      "to": {
+        "line": 6,
+        "ch": 47
+      }
+    },
+    "expandedKeys": []
+  },
+  "K8S/CKA-Certified-Kubernetes-Administrator-main 1/README.md": {
+    "scroll": 113.25098031676158,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3"
+    ]
+  },
+  "K8S/CKA-Certified-Kubernetes-Administrator-main 1/mock-exams/README.md": {
+    "scroll": 4.867263448332777,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0"
+    ]
+  },
+  "K8S/CKA-Certified-Kubernetes-Administrator-main 1/TEMPLATES.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "K8S/CKA/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "K8S/CKA/Syllabus.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "K8S/CKA/Storage.md": {
+    "scroll": 48.47546401312922,
+    "cursor": {
+      "from": {
+        "line": 51,
+        "ch": 0
+      },
+      "to": {
+        "line": 51,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-2"
+    ]
+  },
+  "K8S/Guideline/Connect minikube.md": {
+    "scroll": 0.022590893796322,
+    "cursor": {
+      "from": {
+        "line": 37,
+        "ch": 58
+      },
+      "to": {
+        "line": 37,
+        "ch": 58
+      }
+    },
+    "expandedKeys": []
+  },
+  "K8S/Cheat Sheet.md": {
+    "scroll": 7.061436517635496,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 23
+      },
+      "to": {
+        "line": 17,
+        "ch": 23
+      }
+    },
+    "expandedKeys": []
+  },
+  "K8S/CKA/RBAC.md": {
+    "scroll": 16.245400086667715,
+    "cursor": {
+      "from": {
+        "line": 26,
+        "ch": 343
+      },
+      "to": {
+        "line": 23,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "K8S/Network/Note.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 21
+      },
+      "to": {
+        "line": 7,
+        "ch": 21
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-6",
+      "item-1-12"
+    ]
+  },
+  "K8S/Network/proxy - port-forward - tunnel.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 21
+      },
+      "to": {
+        "line": 7,
+        "ch": 21
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-6",
+      "item-1-12"
+    ]
+  },
+  "K8S/CKA/ETCD.md": {
+    "scroll": 86.61198246382128,
+    "cursor": {
+      "from": {
+        "line": 107,
+        "ch": 0
+      },
+      "to": {
+        "line": 107,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-6",
+      "item-2-5"
+    ]
+  },
+  "K8S/Flows & Diagram.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 15
+      },
+      "to": {
+        "line": 11,
+        "ch": 15
+      }
+    },
+    "expandedKeys": [
+      "item-3-1",
+      "item-3-3",
+      "item-3-7"
+    ]
+  },
+  "K8S/CKA/Exercise - Check List.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 49
+      },
+      "to": {
+        "line": 12,
+        "ch": 49
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "K8S/CKA/E-CheckList.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 49
+      },
+      "to": {
+        "line": 9,
+        "ch": 49
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "K8S/CKA/Exercise/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "K8S/CKA/Exercise/Grading.md": {
+    "scroll": 376.4757624962295,
+    "cursor": {
+      "from": {
+        "line": 390,
+        "ch": 4
+      },
+      "to": {
+        "line": 390,
+        "ch": 4
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1"
+    ]
+  },
+  "K8S/CKA/Exercise/E-CheckList.md": {
+    "scroll": 2.959199087188647,
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 43
+      },
+      "to": {
+        "line": 24,
+        "ch": 43
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-0"
+    ]
+  },
+  "K8S/CKA/NetworkPolicy.md": {
+    "scroll": 0.9760086417582585,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "K8S/CKA/Rolling update.md": {
+    "scroll": 21.3253028802037,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 56
+      },
+      "to": {
+        "line": 29,
+        "ch": 56
+      }
+    },
+    "expandedKeys": [
+      "item-3-0"
+    ]
+  },
+  "K8S/CKA/StatefulSet.md": {
+    "scroll": 22.37016476381534,
+    "cursor": {
+      "from": {
+        "line": 42,
+        "ch": 68
+      },
+      "to": {
+        "line": 42,
+        "ch": 68
+      }
+    },
+    "expandedKeys": []
+  },
+  "K8S/CKA/Schedule.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-0"
+    ]
+  },
+  "K8S/CKA/Upgrade.md": {
+    "scroll": 29.879816412184656,
+    "cursor": {
+      "from": {
+        "line": 85,
+        "ch": 0
+      },
+      "to": {
+        "line": 85,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "K8S/CKA/Node Management.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 30
+      },
+      "to": {
+        "line": 10,
+        "ch": 30
+      }
+    },
+    "expandedKeys": [
+      "item-3-1"
+    ]
+  },
+  "K8S/Network/BGP-IPIP-VXLAN.md": {
+    "scroll": 191.76343528372377,
+    "cursor": {
+      "from": {
+        "line": 199,
+        "ch": 13
+      },
+      "to": {
+        "line": 199,
+        "ch": 13
+      }
+    },
+    "expandedKeys": [
+      "item-1-10",
+      "item-1-16",
+      "item-1-5"
+    ]
   }
 }
