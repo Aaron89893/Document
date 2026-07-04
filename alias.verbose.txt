@@ -90,9 +90,9 @@ alias sgd="echo -e '${reverse}sudo systemctl get-default${reset}\n'; sudo system
 alias slt="echo -e '${reverse}sudo systemctl list-timers${reset}\n'; sudo systemctl list-timers "
 
 alias sst='echo -e '\''\e[7msudo systemctl status\e[0m\n'\''; sudo systemctl status'
-alias ssts='echo -e '\''\e[7msudo systemctl start\e[0m\n'\''; sudo systemctl start'
+alias ssta='echo -e '\''\e[7msudo systemctl start\e[0m\n'\''; sudo systemctl start'
 alias srt="echo -e '${reverse}sudo systemctl restart${reset}\n'; sudo systemctl restart"
-alias ssp="echo -e '${reverse}sudo systemctl stop${reset}\n'; sudo systemctl stop"
+alias ssto="echo -e '${reverse}sudo systemctl stop${reset}\n'; sudo systemctl stop"
 alias sd="echo -e '${reverse}sudo systemctl disable${reset}\n'; sudo systemctl disable"
 alias se="echo -e '${reverse}sudo systemctl enable${reset}\n'; sudo systemctl enable"
 alias srl="echo -e '${reverse}sudo systemctl reload${reset}\n'; sudo systemctl reload"
