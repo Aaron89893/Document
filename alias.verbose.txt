@@ -44,10 +44,26 @@ alias cl="echo -e '${reverse}clear${reset}\n'; clear"
 alias his="echo -e '${reverse}history${reset}\n'; history"
 alias ll="echo -e '${reverse}ls -lhX${reset}\n'; ls -lhX" #https://devopsvn.tech/linux-tip/nhom-tep-tin-theo-extension-voi-lx
 alias la="echo -e '${reverse}ls -lha${reset}\n'; ls -lha"
-alias i="echo -e '${reverse}iptables${reset}\n'; iptables"
 alias myip="echo -e '${reverse}curl -4 icanhazip.com${reset}\n'; curl -4 icanhazip.com"
 alias tar="echo -e '${reverse}tar zxf${reset}\n'; tar zxf"
 alias uuid="curl -s https://www.uuidtools.com/api/generate/v1 | jq -r '.[0]'"
+
+# iptables
+alias i='echo -e '\''\e[7msudo iptables\e[0m\n'\''; sudo iptables'
+
+# LIST
+alias il='echo -e '\''\e[7msudo iptables -n -v --line-number -L\e[0m\n'\''; sudo iptables -n -v --line-number -L'
+alias ili='echo -e '\''\e[7mINPUT\e[0m'\''; sudo iptables -n -v --line-number -L INPUT'
+alias ilf='echo -e '\''\e[7mFORWARD\e[0m'\''; sudo iptables -n -v --line-number -L FORWARD'
+alias ilo='echo -e '\''\e[7mOUTPUT\e[0m'\''; sudo iptables -n -v --line-number -L OUTPUT'
+alias ilpr='echo -e '\''\e[7mPREROUTING\e[0m'\''; sudo iptables -n -v --line-number -L PREROUTING'
+alias ilpo='echo -e '\''\e[7mPOSTROUTING\e[0m'\''; sudo iptables -n -v --line-number -L POSTROUTING'
+# DELETE
+alias idi='echo -e '\''\e[7mi -D INPUT\e[0m'\''; i -D INPUT'
+alias idf='echo -e '\''\e[7mi -D FORWARD\e[0m'\''; i -D FORWARD'
+alias ido='echo -e '\''\e[7mi -D OUTPUT\e[0m'\''; i -D OUTPUT'
+alias idpr='echo -e '\''\e[7mi -D PREROUTING\e[0m'\''; i -D PREROUTING'
+alias idpo='echo -e '\''\e[7mi -D POSTROUTING\e[0m'\''; i -D POSTROUTING'
 
 #@ disk - cpu
 #* w | finger #* show user'sudo session, apt install finger
