@@ -59,11 +59,11 @@ alias ilo='echo -e '\''\e[7mOUTPUT\e[0m'\''; sudo iptables -n -v --line-number -
 alias ilpr='echo -e '\''\e[7mPREROUTING\e[0m'\''; sudo iptables -n -v --line-number -L PREROUTING'
 alias ilpo='echo -e '\''\e[7mPOSTROUTING\e[0m'\''; sudo iptables -n -v --line-number -L POSTROUTING'
 # DELETE
-alias idi='echo -e '\''\e[7mi -D INPUT\e[0m'\''; i -D INPUT'
-alias idf='echo -e '\''\e[7mi -D FORWARD\e[0m'\''; i -D FORWARD'
-alias ido='echo -e '\''\e[7mi -D OUTPUT\e[0m'\''; i -D OUTPUT'
-alias idpr='echo -e '\''\e[7mi -D PREROUTING\e[0m'\''; i -D PREROUTING'
-alias idpo='echo -e '\''\e[7mi -D POSTROUTING\e[0m'\''; i -D POSTROUTING'
+alias idi='echo -e '\''\e[7msudo iptables -D INPUT\e[0m'\''; sudo iptables -D INPUT'
+alias idf='echo -e '\''\e[7msudo iptables -D FORWARD\e[0m'\''; sudo iptables -D FORWARD'
+alias ido='echo -e '\''\e[7msudo iptables -D OUTPUT\e[0m'\''; sudo iptables -D OUTPUT'
+alias idpr='echo -e '\''\e[7msudo iptables -D PREROUTING\e[0m'\''; sudo iptables -D PREROUTING'
+alias idpo='echo -e '\''\e[7msudo iptables -D POSTROUTING\e[0m'\''; sudo iptables -D POSTROUTING'
 
 #@ disk - cpu
 #* w | finger #* show user'sudo session, apt install finger
