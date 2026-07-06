@@ -182,6 +182,21 @@ sudo tee /etc/apt/sources.list.d/hashicorp.list
 sudo apt update -y
 sudo apt install -y terraform etcd-client
 
+# -----------------------------
+# WEBMIN
+# -----------------------------
+echo "==> Installing Webmin..."
+# Download and install the Webmin repository setup script cleanly
+wget https://raw.githubusercontent.com/webmin/webmin/master/webmin-setup-repo.sh
+# Run the setup script with 'force' (-f) to overwrite the repository configurations
+sudo sh webmin-setup-repo.sh -f
+# Explicitly update your system's package list index 🌟
+sudo apt update -y
+# Re-run the installation
+sudo apt install -y webmin
+# Clean up setup script
+rm -f webmin-setup-repo.sh
+
 echo "==> Verifying installations..."
 echo "--------------------------------------"
 echo "Git:"
@@ -213,6 +228,9 @@ terraform --version
 echo "--------------------------------------"
 echo "etcdctl:"
 etcdctl version
+echo "--------------------------------------"
+echo "Webmin:"
+dpkg -s webmin | grep Version || echo "Not installed"
 echo "--------------------------------------"
 
 echo "==> DONE"
