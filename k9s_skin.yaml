@@ -1,0 +1,40 @@
+# -----------------------------------------------------------------------------
+# Custom K9s Skin
+# -----------------------------------------------------------------------------
+
+foreground: &foreground "#C0FFF8"
+#foreground: &foreground "#f8f8f2"
+background: &background "#282a36"
+white: &white "#ffffff"
+blue: &blue "#C0FFF8"
+black: &black "#C4A000"
+purple: &purple "#bd93f9"
+cyan: &cyan "#8be9fd"
+
+k9s:
+  body:
+    fgColor: *foreground
+    bgColor: *background
+
+  frame:
+    status:
+      newColor: *white
+      modifyColor: *blue
+      addColor: *white
+      errorColor: *white
+      highlightColor: *blue
+      killColor: *white
+      completedColor: *white
+
+  views:
+    table:
+      fgColor: *blue
+      bgColor: *background
+
+      cursorFgColor: *black
+      cursorBgColor: *blue
+
+      header:
+        fgColor: *foreground
+        bgColor: *background
+        sorterColor: *cyan
