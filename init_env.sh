@@ -21,6 +21,8 @@ INSTALL_PACKAGES=(
   "terraform"
   "etcd-client"
   "webmin"
+  "k9s"
+  "kustomize"
 )
 
 # Helper function to check if a package is selected for installation
@@ -258,6 +260,28 @@ if is_enabled "webmin"; then
   rm -f webmin-setup-repo.sh
 fi
 
+# -----------------------------
+# K9S
+# -----------------------------
+if is_enabled "k9s"; then
+  echo "==> Installing k9s..."
+  K9S_VERSION=$(curl -s https://api.github.com/repos/derailed/k9s/releases/latest | grep '"tag_name"' | cut -d '"' -f4)
+  curl -sL "https://github.com/derailed/k9s/releases/download/${K9S_VERSION}/k9s_linux_amd64.tar.gz" -o k9s.tar.gz
+  tar -xzf k9s.tar.gz k9s
+  sudo mv k9s /usr/local/bin/
+  sudo chmod +x /usr/local/bin/k9s
+  rm -f k9s.tar.gz
+fi
+
+# -----------------------------
+# KUSTOMIZE
+# -----------------------------
+if is_enabled "kustomize"; then
+  echo "==> Installing kustomize..."
+  curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh" | bash
+  sudo mv kustomize /usr/local/bin/
+fi
+
 echo "==> Verifying installations..."
 echo "--------------------------------------"
 echo "Git:"
@@ -322,6 +346,18 @@ if is_enabled "webmin"; then
   echo "Webmin:"
   dpkg -s webmin | grep Version || echo "Not installed"
   echo "go to web in https://$(hostname -I | awk '{print $1}'):10000"
+  echo "--------------------------------------"
+fi
+
+if is_enabled "k9s"; then
+  echo "k9s:"
+  k9s version
+  echo "--------------------------------------"
+fi
+
+if is_enabled "kustomize"; then
+  echo "kustomize:"
+  kustomize version
   echo "--------------------------------------"
 fi
 
